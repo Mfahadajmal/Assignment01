@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">El menú de accesibilidad es un menú de gran tamaño que se muestra en pantalla para controlar tu dispositivo. Puedes bloquear el dispositivo, controlar el volumen y el brillo, hacer capturas de pantalla y más.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Cómo usar Enunciar selección&lt;/b&gt;&lt;br&gt;Inicia Enunciar selección. Una vez abierto, puedes hacer lo siguiente:&lt;br&gt;• Tocar un elemento concreto, como un texto o una imagen&lt;br&gt;• Arrastrar el dedo por la pantalla para seleccionar varios elementos&lt;br&gt;• Tocar el botón de reproducción para que se lea en voz alta todo lo que hay en la pantalla&lt;br&gt;• Seleccionar el texto que aparezca en la vista de cámara&lt;br&gt;</string>
+    <string name="s2s_service_intro">Toca elementos concretos de la pantalla para que se lean o describan en voz alta.</string>
+    <string name="talkback_service_html_description">&lt;b&gt;Cómo usar TalkBack&lt;/b&gt;&lt;br&gt;• Desliza hacia la derecha o la izquierda para cambiar de elemento&lt;br&gt;• Toca dos veces para activar un elemento&lt;br&gt;• Arrastra con dos dedos la pantalla para desplazarte&lt;br&gt;&lt;br&gt;&lt;b&gt;Cómo desactivar TalkBack&lt;/b&gt;&lt;br&gt;1. En Ajustes, toca &lt;b&gt;Usar TalkBack&lt;/b&gt;. Aparecerá un contorno. Tócalo dos veces.&lt;br&gt;2. En el mensaje de confirmación, toca &lt;b&gt;Detener&lt;/b&gt;. Aparecerá un contorno. Tócalo dos veces.</string>
+    <string name="talkback_service_intro">TalkBack te ofrece mensajes de voz para que puedas utilizar el dispositivo sin mirar la pantalla, lo que resulta muy útil para personas a quienes les cuesta verla.</string>
+</resources>

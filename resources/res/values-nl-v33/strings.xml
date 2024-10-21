@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">Het toegankelijkheidsmenu is een groot menu op het scherm waarmee je je apparaat kunt bedienen. Je kunt onder meer je apparaat vergrendelen, het volume en de helderheid aanpassen en screenshots maken.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Selecteer om voor te lezen&lt;/b&gt;&lt;br&gt;Start de optie Selecteer om voor te lezen. Je kunt dan het volgende doen:&lt;br&gt;• Op een specifiek item tikken (zoals tekst of een afbeelding).&lt;br&gt;• Je vinger over het scherm slepen om meerdere items te selecteren.&lt;br&gt;• Op Afspelen tikken om alles op het scherm te laten voorlezen.&lt;br&gt;• Tekst in de cameraweergave selecteren.&lt;br&gt;</string>
+    <string name="s2s_service_intro">Tik op specifieke items op het scherm om ze te laten voorlezen of een beschrijving ervan te horen</string>
+    <string name="talkback_service_html_description">&lt;b&gt;TalkBack gebruiken&lt;/b&gt;&lt;br&gt;• Swipe naar links of rechts om van het ene naar het andere item te gaan.&lt;br&gt;• Dubbeltik om een item te activeren.&lt;br&gt;• Sleep met 2 vingers om te scrollen.&lt;br&gt;&lt;br&gt;&lt;b&gt;TalkBack uitzetten&lt;/b&gt;&lt;br&gt;1. Tik in Instellingen op &lt;b&gt;TalkBack gebruiken&lt;/b&gt;. Er verschijnt een omtrek. Dubbeltik erop.&lt;br&gt;2. Tik in het bevestigingsbericht op &lt;b&gt;Stoppen&lt;/b&gt;. Er verschijnt een omtrek. Dubbeltik erop.</string>
+    <string name="talkback_service_intro">TalkBack biedt gesproken feedback zodat je je apparaat kunt gebruiken zonder naar het scherm te kijken. TalkBack kan nuttig zijn voor mensen die het scherm moeilijk kunnen zien.</string>
+</resources>

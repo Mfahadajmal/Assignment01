@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">\"Menyja e qasshmërisë\" ofron një meny të madhe në ekran për të kontrolluar pajisjen tënde. Mund të kyçësh pajisjen, të kontrollosh volumin dhe ndriçimin, të nxjerrësh pamje ekrani dhe të tjera.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Si të përdorësh \"Zgjidh që të thuhet\"&lt;/b&gt;&lt;br&gt;Nis \"Zgjidh që të thuhet\" dhe më pas mund:&lt;br&gt;• Të trokasësh te një artikull specifik, si p.sh. te një tekst apo imazh&lt;br&gt;• Të zvarritësh gishtin në ekran për të zgjedhur disa artikuj&lt;br&gt;• Të trokasësh \"Luaj\" për të dëgjuar gjithçka në ekran&lt;br&gt;• Të zgjedhësh tekstin që shfaqet brenda pamjes së \"Kamerës\"&lt;br&gt;</string>
+    <string name="s2s_service_intro">Trokit artikuj specifik në ekranin tënd për t\'i dëgjuar që të lexohen ose përshkruhen me zë</string>
+    <string name="talkback_service_html_description">&lt;b&gt;Si të përdorësh TalkBack&lt;/b&gt;&lt;br&gt;• Rrëshqit shpejt djathtas ose majtas për të lëvizur mes artikujve&lt;br&gt;• Trokit dy herë për të aktivizuar një artikull&lt;br&gt;• Zvarrit 2 gishta për të lëvizur&lt;br&gt;&lt;br&gt;&lt;b&gt;Si të çaktivizosh TalkBack&lt;/b&gt;&lt;br&gt;1. Te \"Cilësimet\", trokit &lt;b&gt;Përdor TalkBack&lt;/b&gt;. Aty do të ketë një kontur. Trokite atë dy herë.&lt;br&gt;2. Në mesazhin e konfirmimit, trokit &lt;b&gt;Ndalo&lt;/b&gt;. Aty do të ketë një kontur. Trokite atë dy herë.</string>
+    <string name="talkback_service_intro">TalkBack jep komente me zë në mënyrë që të mund ta përdorësh pajisjen pa parë në ekran. TalkBack mund të jetë i dobishëm për njerëzit që kanë vështirësi në shikimin e ekranit.</string>
+</resources>

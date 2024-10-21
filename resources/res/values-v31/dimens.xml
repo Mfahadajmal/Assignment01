@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="a11y_alertdialog_background_inset">5dp</dimen>
+    <dimen name="a11y_alertdialog_corner_radius">@dimen/google_material_corner_radius</dimen>
+    <dimen name="context_menu_item_padding_horizontal">38dp</dimen>
+    <dimen name="dialog_corner_radius">28dp</dimen>
+    <dimen name="expanded_title_margin_bottom">32dp</dimen>
+    <dimen name="expanded_title_margin_end">24dp</dimen>
+    <dimen name="expanded_title_margin_start">24dp</dimen>
+    <dimen name="google_marterial_alertdialog_buttons_bottom_margin">30dp</dimen>
+    <dimen name="google_marterial_alertdialog_buttons_end_margin">16dp</dimen>
+    <dimen name="google_marterial_alertdialog_buttons_padding_vertical">16dp</dimen>
+    <dimen name="google_marterial_alertdialog_buttons_right_margin">16dp</dimen>
+    <dimen name="google_marterial_alertdialog_buttons_top_margin">26dp</dimen>
+    <dimen name="google_marterial_button_text_size">14sp</dimen>
+    <dimen name="google_marterial_dialog_title_size">24sp</dimen>
+    <dimen name="google_marterial_dialog_title_top_padding">24dp</dimen>
+    <dimen name="google_marterial_margin_between_buttons">8dp</dimen>
+    <dimen name="quick_menu_overlay_corner_radius">@dimen/google_material_corner_radius</dimen>
+    <dimen name="settingslib_dialogCornerRadius">28dp</dimen>
+    <dimen name="settingslib_listPreferredItemPaddingStart">24dp</dimen>
+    <dimen name="settingslib_min_switch_bar_height">72dp</dimen>
+    <dimen name="settingslib_preferred_minimum_touch_target">48dp</dimen>
+    <dimen name="settingslib_scrim_visible_height_trigger">137dp</dimen>
+    <dimen name="settingslib_switch_bar_radius">28dp</dimen>
+    <dimen name="settingslib_switchbar_margin">16dp</dimen>
+    <dimen name="settingslib_switchbar_padding_left">20dp</dimen>
+    <dimen name="settingslib_switchbar_padding_right">20dp</dimen>
+    <dimen name="settingslib_toolbar_layout_height">179dp</dimen>
+    <dimen name="survey_alertdialog_background_inset">5dp</dimen>
+    <dimen name="survey_alertdialog_button_right_margin">@dimen/google_marterial_alertdialog_buttons_right_margin</dimen>
+    <dimen name="survey_alertdialog_corner_radius">@dimen/google_material_corner_radius</dimen>
+    <dimen name="survey_button_min_width_size">88dp</dimen>
+    <dimen name="training_list_item_corner_radius">@dimen/google_material_corner_radius</dimen>
+</resources>

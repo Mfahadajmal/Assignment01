@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s secundă</item>
+        <item quantity="few">%s secunde</item>
+        <item quantity="other">%s de secunde</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s secundă</item>
+        <item quantity="few">%s secunde</item>
+        <item quantity="other">%s de secunde</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">punct %s</item>
+        <item quantity="few">puncte %s</item>
+        <item quantity="other">puncte %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">punct %s</item>
+        <item quantity="few">puncte %s</item>
+        <item quantity="other">puncte %s</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">O etichetă actualizată</item>
+        <item quantity="few">%d etichete actualizate</item>
+        <item quantity="other">%d de etichete actualizate</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">O potrivire</item>
+        <item quantity="few">%1$d potriviri</item>
+        <item quantity="other">%1$d de potriviri</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+        <item quantity="other">%d de notificări noi</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d stea din %2$d</item>
+        <item quantity="few">%1$d stele din %2$d</item>
+        <item quantity="other">%1$d de stele din %2$d</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">%1$s afișează %2$d element</item>
+        <item quantity="few">%1$s afișează %2$d elemente</item>
+        <item quantity="other">%1$s afișează %2$d de elemente</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">Un eveniment selectat</item>
+        <item quantity="few">%1$d evenimente selectate</item>
+        <item quantity="other">%1$d de evenimente selectate</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d coloană</item>
+        <item quantity="few">%1$d coloane</item>
+        <item quantity="other">%1$d de coloane</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d rând</item>
+        <item quantity="few">%1$d rânduri</item>
+        <item quantity="other">%1$d de rânduri</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d element</item>
+        <item quantity="few">%1$d elemente</item>
+        <item quantity="other">%1$d de elemente</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d caracter</item>
+        <item quantity="few">%1$d caractere</item>
+        <item quantity="other">%1$d de caractere</item>
+    </plurals>
+</resources>

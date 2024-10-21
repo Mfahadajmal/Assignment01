@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:brailledisplay="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#c0000000"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr">
+    <ImageButton
+        android:layout_gravity="left"
+        android:id="@+id/pan_left_button"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingLeft="@dimen/overlay_pan_button_padding"
+        android:paddingRight="@dimen/overlay_pan_button_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_prev"
+        android:contentDescription="@string/overlay_pan_left_button"/>
+    <com.google.android.accessibility.braille.brailledisplay.BrailleView
+        android:textSize="@dimen/overlay_text_size"
+        android:textColor="@android:color/white"
+        android:id="@+id/braille_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        brailledisplay:cellHeight="@dimen/overlay_cell_height"
+        brailledisplay:cellPadding="@dimen/overlay_cell_padding"
+        brailledisplay:cellWidth="@dimen/overlay_cell_width"
+        brailledisplay:dotRadius="@dimen/overlay_dot_radius"
+        brailledisplay:highlightDrawable="@android:color/holo_blue_light"/>
+    <ImageButton
+        android:layout_gravity="right"
+        android:id="@+id/pan_right_button"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingLeft="@dimen/overlay_pan_button_padding"
+        android:paddingRight="@dimen/overlay_pan_button_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_next"
+        android:contentDescription="@string/overlay_pan_right_button"/>
+</LinearLayout>

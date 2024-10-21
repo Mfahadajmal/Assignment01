@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">\"Acessibilidade\" é um grande menu mostrado na tela para controlar seu dispositivo. Você pode bloquear o dispositivo, controlar o volume e o brilho, fazer capturas de tela e muito mais.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Como usar o Selecionar para ouvir&lt;/b&gt;&lt;br&gt;Abra o Selecionar para ouvir. Depois, você pode:&lt;br&gt;• Tocar em um item específico, como um texto ou uma imagem.&lt;br&gt;• Arrastar o dedo pela tela para selecionar vários itens.&lt;br&gt;• Tocar no botão de reprodução para ouvir tudo o que está na tela.&lt;br&gt;• Selecionar o texto que aparece dentro da visualização da câmera.&lt;br&gt;</string>
+    <string name="s2s_service_intro">Toque em itens específicos na tela para ouvir a leitura ou descrição deles em voz alta</string>
+    <string name="talkback_service_html_description">&lt;b&gt;Como usar o TalkBack&lt;/b&gt;&lt;br&gt;• Deslize para a direita ou esquerda para alternar entre itens&lt;br&gt;• Toque duas vezes para ativar um item&lt;br&gt;• Arraste dois dedos para rolar a tela&lt;br&gt;&lt;br&gt;&lt;b&gt;Como desativar o TalkBack&lt;/b&gt;&lt;br&gt;1. Nas Configurações, toque em &lt;b&gt;Usar TalkBack&lt;/b&gt;. Um contorno vai aparecer na tela. Toque duas vezes nele.&lt;br&gt;2. Na mensagem de confirmação, toque em &lt;b&gt;Parar&lt;/b&gt;. Um contorno vai aparecer na tela. Toque duas vezes nele.</string>
+    <string name="talkback_service_intro">O TalkBack oferece respostas faladas para você usar o dispositivo sem olhar para a tela. Ele pode ser útil para pessoas com dificuldade de enxergar.</string>
+</resources>

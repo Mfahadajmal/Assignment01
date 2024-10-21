@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.accessibility.talkback.preference.base.AccessibilitySeekBarPreference
+        android:title="@string/title_pref_a11y_volume"
+        android:key="@string/pref_a11y_volume_key"
+        android:defaultValue="@integer/pef_default_a11y_volume"/>
+    <com.google.android.accessibility.talkback.preference.base.SpeechRatePreference
+        android:title="@string/title_pref_talkback_speech_rate"
+        android:key="@string/pref_speech_rate_seekbar_key_int"
+        android:defaultValue="@integer/pref_speech_rate_default_int"/>
+    <SwitchPreference
+        android:title="@string/title_pref_soundback"
+        android:key="@string/pref_soundback_key"
+        android:defaultValue="@bool/pref_soundback_default"/>
+    <com.google.android.accessibility.utils.preference.AccessibilitySuiteListPreference
+        android:entries="@array/pref_soundback_volume_entries"
+        android:title="@string/title_pref_soundback_volume"
+        android:key="@string/pref_soundback_volume_key"
+        android:summary="%s"
+        android:dependency="@string/pref_soundback_key"
+        android:defaultValue="@string/pref_soundback_volume_default"
+        android:dialogTitle="@string/title_pref_soundback_volume"
+        android:entryValues="@array/pref_soundback_volume_values"/>
+    <SwitchPreference
+        android:title="@string/title_pref_use_audio_focus"
+        android:key="@string/pref_use_audio_focus_key"
+        android:summary="@string/summary_audio_ducking"
+        android:defaultValue="@bool/pref_use_audio_focus_default"/>
+    <SwitchPreference
+        android:title="@string/title_pref_vibration"
+        android:key="@string/pref_vibration_key"
+        android:defaultValue="@bool/pref_vibration_default"/>
+    <com.google.android.accessibility.talkback.preference.base.AccessibilityFooterPreference
+        android:title="@string/title_pref_speech_footer"
+        android:selectable="false"
+        android:key="@string/pref_speech_footer_key"/>
+</PreferenceScreen>

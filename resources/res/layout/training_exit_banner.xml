@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/training_exit_warning_layout"
+    android:background="@drawable/training_exit_banner_background"
+    android:padding="@dimen/training_banner_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/training_banner_padding"
+    android:layout_marginStart="@dimen/training_banner_padding"
+    android:layout_marginEnd="@dimen/training_banner_padding">
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="@dimen/training_banner_title_text_size"
+        android:textColor="@color/training_text_color"
+        android:layout_gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/talkback_is_on"
+        app:fontFamily="@string/accessibility_font"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="@dimen/training_text_small_size"
+        android:textColor="@color/training_text_color"
+        android:layout_gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/training_banner_padding"
+        android:text="@string/talkback_turn_off_description"
+        app:fontFamily="@string/accessibility_font"/>
+    <Button
+        android:textSize="@dimen/training_button_text_size"
+        android:textColor="@color/training_banner_button_text_color"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/training_exit_talkback_button"
+        android:background="@drawable/training_exit_banner_button_background"
+        android:paddingTop="@dimen/training_button_padding"
+        android:paddingBottom="@dimen/training_button_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/training_button_padding"
+        android:text="@string/turn_off_talkback"
+        android:maxLines="2"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        app:fontFamily="@string/accessibility_font"/>
+</LinearLayout>

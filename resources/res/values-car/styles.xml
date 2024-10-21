@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SurveyButtonStyle" parent="@style/Widget.GoogleMaterial.Button.TextButton">
+        <item name="android:textColor">@color/surveys_button_text_color</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_height">76dp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">@string/survey_font_medium</item>
+        <item name="cornerRadius">46dp</item>
+        <item name="strokeColor">@color/google_grey300</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+    <style name="SurveyCloseButtonStyle" parent="">
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+    <style name="SurveyInvitationStyle" parent="">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="SurveyLegalTextStyle" parent="">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="SurveyNoThanksButtonStyle" parent="">
+        <item name="android:textColor">@color/survey_accent_color</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+    <style name="SurveyOverallContainerStyle" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="cardCornerRadius">16dp</item>
+    </style>
+    <style name="SurveyRatingImageStyle" parent="">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:tint">@color/google_grey600</item>
+    </style>
+    <style name="SurveySingleSelectOtherOptionStyle" parent="">
+        <item name="android:paddingLeft">34dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingRight">34dp</item>
+    </style>
+    <style name="SurveyTakeSurveyButtonStyle" parent="@style/Widget.GoogleMaterial.Button">
+        <item name="android:textColor">@color/survey_surface_color_elevation_2</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_height">76dp</item>
+        <item name="android:backgroundTint">@color/survey_accent_color</item>
+        <item name="cornerRadius">46dp</item>
+    </style>
+</resources>

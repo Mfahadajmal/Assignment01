@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s sekunti</item>
+        <item quantity="other">%s sekuntia</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s sekunti</item>
+        <item quantity="other">%s sekuntia</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">piste %s</item>
+        <item quantity="other">pisteet %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">piste %s</item>
+        <item quantity="other">pisteet %s</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">1 tunniste päivitetty.</item>
+        <item quantity="other">%d tunnistetta päivitetty.</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">1 tulos</item>
+        <item quantity="other">%1$d tulosta</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d uusi ilmoitus</item>
+        <item quantity="other">%d uutta ilmoitusta</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d/%2$d tähteä</item>
+        <item quantity="other">%1$d/%2$d tähteä</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">%1$s näyttää %2$d kohteen</item>
+        <item quantity="other">%1$s näyttää %2$d kohdetta</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">1 valittu tapahtuma</item>
+        <item quantity="other">%1$d valittua tapahtumaa</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d sarake</item>
+        <item quantity="other">%1$d saraketta</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d rivi</item>
+        <item quantity="other">%1$d riviä</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d kohde</item>
+        <item quantity="other">%1$d kohdetta</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d merkki</item>
+        <item quantity="other">%1$d merkkiä</item>
+    </plurals>
+</resources>

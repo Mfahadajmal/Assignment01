@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="@string/pref_category_manage_focus_indicator_key">
+    <com.google.android.accessibility.utils.preference.AccessibilitySuiteSwitchPreference
+        android:persistent="true"
+        android:title="@string/title_pref_thick_border"
+        android:key="@string/pref_thick_border_key"/>
+    <com.google.android.accessibility.utils.preference.AccessibilitySuitePreferenceCategory
+        android:title="@string/title_pref_category_border_color"
+        android:key="@string/pref_border_color_category_key">
+        <com.google.android.accessibility.utils.preference.AccessibilitySuiteRadioButtonPreference android:title="@string/title_pref_default_color"/>
+        <com.google.android.accessibility.utils.preference.AccessibilitySuiteRadioButtonPreference android:title="@string/title_pref_red"/>
+        <com.google.android.accessibility.utils.preference.AccessibilitySuiteRadioButtonPreference android:title="@string/title_pref_orange"/>
+        <com.google.android.accessibility.utils.preference.AccessibilitySuiteRadioButtonPreference android:title="@string/title_pref_yellow"/>
+        <com.google.android.accessibility.utils.preference.AccessibilitySuiteRadioButtonPreference android:title="@string/title_pref_green"/>
+        <com.google.android.accessibility.utils.preference.AccessibilitySuiteRadioButtonPreference android:title="@string/title_pref_blue"/>
+        <com.google.android.accessibility.utils.preference.AccessibilitySuiteRadioButtonPreference android:title="@string/title_pref_grey"/>
+    </com.google.android.accessibility.utils.preference.AccessibilitySuitePreferenceCategory>
+</PreferenceScreen>

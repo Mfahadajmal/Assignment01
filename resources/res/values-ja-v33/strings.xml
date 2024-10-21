@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">ユーザー補助メニューは、デバイスを操作するために画面上に大きく表示されるメニューです。デバイスのロック、音量や明るさの調節、スクリーンショットの撮影などを行えます。</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;「選択して読み上げ」の使い方&lt;/b&gt;&lt;br&gt;「選択して読み上げ」を開始してから、次のように操作します。&lt;br&gt;• 聞きたい項目（テキストや画像）をタップ&lt;br&gt;• 複数の項目を選択するには画面上を指でドラッグ&lt;br&gt;• すべての項目を読み上げるには再生ボタンをタップ&lt;br&gt;• カメラビューの内部に表示されるテキストを選択&lt;br&gt;</string>
+    <string name="s2s_service_intro">画面上の特定の項目をタップすると、その名前や説明を音声で聞くことができます。</string>
+    <string name="talkback_service_html_description">&lt;b&gt;TalkBack の使い方&lt;/b&gt;&lt;br&gt;• 左右にスワイプして項目間を移動します&lt;br&gt;• ダブルタップで項目を有効にします&lt;br&gt;• 2 本の指でドラッグしてスクロールします&lt;br&gt;&lt;br&gt;&lt;b&gt;TalkBack を OFF にする方法&lt;/b&gt;&lt;br&gt;1. 設定で [&lt;b&gt;TalkBack を使用&lt;/b&gt;] をタップします。枠線が表示されます。ダブルタップします。&lt;br&gt;2. 確認メッセージが表示されたら、[&lt;b&gt;停止&lt;/b&gt;] をタップします。枠線が表示されます。ダブルタップします。</string>
+    <string name="talkback_service_intro">TalkBack から音声フィードバックが提供されるので、画面を見ずにデバイスを使用できます。TalkBack は画面を見ることが困難な方に役立つ機能です。</string>
+</resources>

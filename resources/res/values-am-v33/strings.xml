@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">የተደራሽነት ምናሌ መሣሪያዎን ለመቆጣጠር ትልቅ የማያ ገፅ ላይ ምናሌን ያቀርባል። የእርስዎን መሣሪያ መቆለፍ፣ ድምፅን እና ብሩህነትን መቆጣጠር፣ ቅጽበታዊ ገፅ ዕይታዎችን ማንሳት እና ተጨማሪ ነገሮችን ማድረግ ይችላሉ።</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;እንዴት ለመናገር ይምረጡን መጠቀም እንደሚቻል&lt;/b&gt;&lt;br&gt;ለመናገር ይምረጡ። ከዚያ እነዚህን ማድረግ ይችላሉ፦&lt;br&gt;• እንደ ጽሁፍ ወይም ምስል ያለ የተወሰነ ንጥል መታ ማድረግ&lt;br&gt;• በርካታ ንጥሎችን ለመምረጥ ማያ ገጹ ላይ የእርስዎን ጣት መጎተት&lt;br&gt;• በማያ ገጹ ላይ ያለውን ነገር ሁሉ ለመስማት አጫውትን መታ ማድረግ&lt;br&gt;• በካሜራ ዕይታ ውስጥ የሚታየውን ጽሁፍ መምረጥ&lt;br&gt;</string>
+    <string name="s2s_service_intro">በማያ ገጽዎ ላይ ያሉ የተወሰኑ ንጥሎች ጮክ ተብለው ሲነበቡ ወይም ሲገለጹ ለማዳመጥ መታ ያድርጓቸው</string>
+    <string name="talkback_service_html_description">&lt;b&gt;እንዴት TalkBackን መጠቀም እንደሚቻል&lt;/b&gt;&lt;br&gt;• በንጥሎች መካከል ለማንቀሳቀስ ወደ ቀኝ ወይም ወደ ግራ ያንሸራትቱ&lt;br&gt;• አንድን ንጥል ለማንቃት ሁለቴ መታ ያድርጉ&lt;br&gt;• ለመሸብለል 2 ጣቶችን ይጎትቱ&lt;br&gt;&lt;br&gt;&lt;b&gt;እንዴት TalkBackን ማጥፋት እንደሚቻል&lt;/b&gt;&lt;br&gt;1። በቅንብሮች ውስጥ &lt;b&gt;Use TalkBackን ተጠቀም&lt;/b&gt; የሚለውን መታ ያድርጉ። የሆነ ቅርጽ ይኖራል። ሁለቴ መታ ያድርጉት።&lt;br&gt;2። በማረጋገጫ መልዕክቱ ላይ &lt;b&gt;አቁም&lt;/b&gt;የሚለውን መታ ያድርጉ። የሆነ ቅርጽ ይኖራል። ሁለቴ መታ ያድርጉት።</string>
+    <string name="talkback_service_intro">ተሽከርካሪው ሲበራ ማያ ገጹን ሳይመለከቱ መሣሪያዎን መጠቀም እንዲችሉ የቃል ግብረመልስን ያቀርባል። TalkBack ማያ ገጹን ማየት ለሚቸገሩ ሰዎች አጋዥ ሊሆን ይችላል።</string>
+</resources>

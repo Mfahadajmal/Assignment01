@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">The Accessibility Menu provides a large on-screen menu to control your device. You can lock your device, control volume and brightness, take screenshots, and more.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;How to use Select to Speak&lt;/b&gt;&lt;br&gt;Start Select to Speak, then you can:&lt;br&gt;• Tap a specific item, like text or an image&lt;br&gt;• Drag your finger across the screen to select multiple items&lt;br&gt;• Tap Play to hear everything on screen&lt;br&gt;• Select text that appears inside the Camera view&lt;br&gt;</string>
+    <string name="s2s_service_intro">Tap specific items on your screen to hear them read or described aloud</string>
+    <string name="talkback_service_html_description">&lt;b&gt;How to use TalkBack&lt;/b&gt;&lt;br&gt;• Swipe right or left to move between items&lt;br&gt;• Double-tap to activate an item&lt;br&gt;• Drag 2 fingers to scroll&lt;br&gt;&lt;br&gt;&lt;b&gt;How to turn off TalkBack&lt;/b&gt;&lt;br&gt;1. In Settings, tap &lt;b&gt;Use TalkBack&lt;/b&gt;. There will be an outline. Double-tap it.&lt;br&gt;2. On the confirmation message, tap &lt;b&gt;Stop&lt;/b&gt;. There will be an outline. Double-tap it.</string>
+    <string name="talkback_service_intro">TalkBack provides spoken feedback so that you can use your device without looking at the screen. TalkBack can be helpful for people who have difficulty seeing the screen.</string>
+</resources>

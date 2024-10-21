@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:gravity="center"
+        android:height="300dp"
+        android:width="412dp"
+        android:drawable="@drawable/braille_keyboard_tabletop"/>
+    <item
+        android:gravity="center"
+        android:top="@dimen/intro_animation_dot_vertical_length_to_far_border_tabletop"
+        android:end="@dimen/intro_animation_dot_horizontal_length_to_near_border_tabletop">
+        <shape android:shape="oval">
+            <solid android:color="@color/input_plane_dot_background_pressed"/>
+            <size
+                android:height="@dimen/intro_animation_dot_diameter_tabletop"
+                android:width="@dimen/intro_animation_dot_diameter_tabletop"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:top="@dimen/intro_animation_dot_vertical_length_to_far_border_tabletop"
+        android:start="@dimen/intro_animation_dot_horizontal_length_to_near_with_offset_border_tabletop">
+        <shape android:shape="oval">
+            <solid android:color="@color/input_plane_dot_background_pressed"/>
+            <size
+                android:height="@dimen/intro_animation_dot_diameter_tabletop"
+                android:width="@dimen/intro_animation_dot_diameter_tabletop"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:drawable="@drawable/ic_letter_c"
+        android:bottom="@dimen/intro_animation_letter_vertical_bottom_padding_tabletop"/>
+</layer-list>

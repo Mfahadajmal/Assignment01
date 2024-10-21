@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:duration="1000"
+        android:drawable="@drawable/braille_keyboard_letter_a"/>
+    <item
+        android:duration="750"
+        android:drawable="@drawable/braille_keyboard"/>
+    <item
+        android:duration="1000"
+        android:drawable="@drawable/braille_keyboard_letter_b"/>
+    <item
+        android:duration="750"
+        android:drawable="@drawable/braille_keyboard"/>
+    <item
+        android:duration="1000"
+        android:drawable="@drawable/braille_keyboard_letter_c"/>
+    <item
+        android:duration="2000"
+        android:drawable="@drawable/braille_keyboard"/>
+</animation-list>

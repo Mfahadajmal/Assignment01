@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textColor="@color/training_text_color"
+    android:id="@+id/training_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/tv_training_text_margin_top"
+    android:lineHeight="@dimen/tv_training_text_line_height"
+    app:fontFamily="@font/google_sans_text"/>

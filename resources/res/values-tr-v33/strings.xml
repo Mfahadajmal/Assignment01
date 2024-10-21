@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">Erişilebilirlik Menüsü, cihazınızı kontrol etmeniz için geniş bir ekran menüsü sağlar. Cihazınızı kilitleyebilir, ses düzeyini ve parlaklığı kontrol edebilir, ekran görüntüsü alabilir ve daha fazlasını yapabilirsiniz.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Seç ve Dinle nasıl kullanılır?&lt;/b&gt;&lt;br&gt;Seç ve Dinle\'yi başlatın. Ardından şunları yapabilirsiniz:&lt;br&gt;• Metin veya resim gibi belirli bir öğeye dokunma&lt;br&gt;• Birden çok öğe seçmek için parmağınızı ekranda sürükleme&lt;br&gt;• Ekranda yazan her şeyi duymak için Çal düğmesine dokunma&lt;br&gt;• Kamera görünümünün içinde çıkan metni seçme&lt;br&gt;</string>
+    <string name="s2s_service_intro">Sesli okunması veya açıklanması için ekranınızdaki öğelere dokunun</string>
+    <string name="talkback_service_html_description">&lt;b&gt;TalkBack nasıl kullanılır?&lt;/b&gt;&lt;br&gt;• Öğeler arasında gezinmek için sağa veya sola kaydırın&lt;br&gt;• Bir öğeyi etkinleştirmek için iki kez dokunun&lt;br&gt;• Kaydırmak için iki parmağınızı sürükleyin&lt;br&gt;&lt;br&gt;&lt;b&gt;TalkBack nasıl kapatılır?&lt;/b&gt;&lt;br&gt;1. Ayarlar\'da &lt;b&gt;TalkBack özelliğini kullan&lt;/b&gt;\'a dokunun. Bir dış çizgi gösterilir. Bu çizgiye iki kez dokunun.&lt;br&gt;2. Onay mesajında &lt;b&gt;Durdur&lt;/b&gt;\'a dokunun. Bir dış çizgi görürsünüz. Bu çizgiye iki kez dokunun.</string>
+    <string name="talkback_service_intro">TalkBack, cihazınızı ekrana bakmadan kullanabilmeniz için sözlü geri bildirim sağlar. TalkBack, ekranı görmekte zorluk yaşayan kullanıcılar için faydalı olabilir.</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.accessibility.utils.preference.AccessibilitySuitePreference
+        android:selectable="false"
+        android:key="@string/pref_category_automatic_description_summary_key"
+        android:summary="@string/title_pref_category_automatic_description_summary"/>
+    <com.google.android.accessibility.utils.preference.AccessibilitySuiteSwitchPreference
+        android:title="@string/title_pref_detailed_image_description"
+        android:key="@string/pref_detailed_image_description_key"
+        android:defaultValue="@bool/pref_detailed_image_description_default"/>
+    <com.google.android.accessibility.utils.preference.AccessibilitySuitePreference
+        android:title="@string/title_pref_image_description"
+        android:key="@string/pref_image_description_key"/>
+    <com.google.android.accessibility.utils.preference.AccessibilitySuitePreference
+        android:title="@string/title_pref_icon_detection"
+        android:key="@string/pref_icon_detection_key"/>
+    <com.google.android.accessibility.utils.preference.AccessibilitySuitePreference
+        android:title="@string/title_pref_text_recognition"
+        android:key="@string/pref_text_recognition_key"/>
+</PreferenceScreen>

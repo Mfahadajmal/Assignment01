@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">Menu Aksesibilitas menyediakan menu di layar dengan ukuran besar untuk mengontrol perangkat Anda. Anda dapat mengunci perangkat, mengontrol volume dan kecerahan, mengambil screenshot, dan banyak lagi.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Cara menggunakan fitur Klik untuk Diucapkan&lt;/b&gt;&lt;br&gt;Mulai Klik untuk Diucapkan, lalu Anda dapat:&lt;br&gt;• Mengetuk item tertentu, seperti teks atau gambar&lt;br&gt;• Menarik jari di layar untuk memilih beberapa item&lt;br&gt;• Mengetuk Putar untuk mendengarkan semua konten yang ada di layar&lt;br&gt;• Memilih teks yang muncul di dalam tampilan Kamera&lt;br&gt;</string>
+    <string name="s2s_service_intro">Ketuk item di layar untuk mendengarkannya diucapkan atau dideskripsikan</string>
+    <string name="talkback_service_html_description">&lt;b&gt;Cara menggunakan TalkBack&lt;/b&gt;&lt;br&gt;• Geser ke kanan atau kiri untuk berpindah antar-item&lt;br&gt;• Ketuk dua kali untuk mengaktifkan item&lt;br&gt;• Tarik dengan 2 jari untuk men-scroll&lt;br&gt;&lt;br&gt;&lt;b&gt;Cara menonaktifkan TalkBack&lt;/b&gt;&lt;br&gt;1. Di Setelan, ketuk &lt;b&gt;Gunakan TalkBack&lt;/b&gt;. Anda akan melihat garis batas. Ketuk garis batas dua kali.&lt;br&gt;2. Pada pesan konfirmasi, ketuk &lt;b&gt;Berhenti&lt;/b&gt;. Anda akan melihat garis batas. Ketuk garis batas dua kali.</string>
+    <string name="talkback_service_intro">TalkBack memberikan respons lisan sehingga Anda dapat menggunakan perangkat tanpa melihat layar. TalkBack dapat berguna bagi orang yang kesulitan melihat layar atau orang yang mengalami gangguan penglihatan.</string>
+</resources>

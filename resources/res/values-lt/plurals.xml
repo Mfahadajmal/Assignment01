@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s sekundė</item>
+        <item quantity="few">%s sekundės</item>
+        <item quantity="many">%s sekundės</item>
+        <item quantity="other">%s sekundžių</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s sekundė</item>
+        <item quantity="few">%s sekundės</item>
+        <item quantity="many">%s sekundės</item>
+        <item quantity="other">%s sekundžių</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">%s taškas</item>
+        <item quantity="few">%s taškai</item>
+        <item quantity="many">%s taško</item>
+        <item quantity="other">%s taškų</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">%s taškas</item>
+        <item quantity="few">%s taškai</item>
+        <item quantity="many">%s taško</item>
+        <item quantity="other">%s taškų</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">Atnaujinta %d etiketė</item>
+        <item quantity="few">Atnaujintos %d etiketės</item>
+        <item quantity="many">Atnaujinta %d etiketės</item>
+        <item quantity="other">Atnaujinta %d etikečių</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">%1$d atitiktis</item>
+        <item quantity="few">%1$d atitiktys</item>
+        <item quantity="many">%1$d atitikties</item>
+        <item quantity="other">%1$d atitikčių</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+        <item quantity="other">%d naujų pranešimų</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d žvaigždutė iš %2$d</item>
+        <item quantity="few">%1$d žvaigždutės iš %2$d</item>
+        <item quantity="many">%1$d žvaigždutės iš %2$d</item>
+        <item quantity="other">%1$d žvaigždučių iš %2$d</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">%1$s rodomas %2$d elementas</item>
+        <item quantity="few">%1$s rodomi %2$d elementai</item>
+        <item quantity="many">%1$s rodoma %2$d elemento</item>
+        <item quantity="other">%1$s rodoma %2$d elementų</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">Pasirinktas %1$d įvykis</item>
+        <item quantity="few">Pasirinkti %1$d įvykiai</item>
+        <item quantity="many">Pasirinkta %1$d įvykio</item>
+        <item quantity="other">Pasirinkta %1$d įvykių</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d stulpelis</item>
+        <item quantity="few">%1$d stulpeliai</item>
+        <item quantity="many">%1$d stulpelio</item>
+        <item quantity="other">%1$d stulpelių</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d eilutė</item>
+        <item quantity="few">%1$d eilutės</item>
+        <item quantity="many">%1$d eilutės</item>
+        <item quantity="other">%1$d eilučių</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d elementas</item>
+        <item quantity="few">%1$d elementai</item>
+        <item quantity="many">%1$d elemento</item>
+        <item quantity="other">%1$d elementų</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d simbolis</item>
+        <item quantity="few">%1$d simboliai</item>
+        <item quantity="many">%1$d simbolio</item>
+        <item quantity="other">%1$d simbolių</item>
+    </plurals>
+</resources>

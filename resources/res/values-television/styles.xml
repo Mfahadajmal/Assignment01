@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="A11yAlertDialogTheme" parent="@style/Theme.GoogleMaterial3.Dark.Dialog.Alert">
+    </style>
+    <style name="SurveyCheckBoxStyle" parent="@style/Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/google_selection_control_button_tint</item>
+        <item name="useMaterialThemeColors">true</item>
+    </style>
+    <style name="SurveyTheme" parent="@style/Theme.GoogleMaterial.Dark.NoActionBar">
+        <item name="checkboxStyle">@style/SurveyCheckBoxStyle</item>
+    </style>
+    <style name="SurveysTransparentActivity" parent="@style/Theme.GoogleMaterial.Dark.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustNothing|stateUnchanged</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="colorPrimaryGoogle">@color/survey_accent_color</item>
+        <item name="colorSurface">@color/survey_surface_color</item>
+    </style>
+    <style name="TalkBackSettings" parent="@style/Theme.GoogleMaterial3.Dark">
+        <item name="android:progressBarStyleHorizontal">@style/HorizontalProgressBar.SettingsLib</item>
+        <item name="android:textAppearanceListItem">@style/TextAppearance.PreferenceTitle.SettingsLib</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/settingslib_listPreferredItemPaddingStart</item>
+        <item name="android:listPreferredItemPaddingRight">16dp</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/settingslib_listPreferredItemPaddingStart</item>
+        <item name="android:listPreferredItemPaddingEnd">16dp</item>
+        <item name="preferenceTheme">@style/PreferenceTheme.SettingsLib</item>
+    </style>
+    <style name="TrainingActivityTheme" parent="@style/Theme.GoogleMaterial3.Dark.NoActionBar">
+    </style>
+</resources>

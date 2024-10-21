@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="survey_answer_text_size">24dp</dimen>
+    <dimen name="survey_display_logo_padding_top">6dp</dimen>
+    <dimen name="survey_divider_horizontal_margin">0dp</dimen>
+    <dimen name="survey_legal_text_size">24dp</dimen>
+    <dimen name="survey_multiple_select_horizontal_padding">48dp</dimen>
+    <dimen name="survey_option_tap_minheight">76dp</dimen>
+    <dimen name="survey_other_option_horizontal_padding">36dp</dimen>
+    <dimen name="survey_pii_text_padding_bottom">22dp</dimen>
+    <dimen name="survey_pii_text_size">24dp</dimen>
+    <dimen name="survey_prompt_buttons_max_text_size">30dp</dimen>
+    <dimen name="survey_prompt_buttons_text_size">26dp</dimen>
+    <dimen name="survey_prompt_corner_radius">16dp</dimen>
+    <dimen name="survey_question_text_size">28dp</dimen>
+    <dimen name="survey_rating_container_margin">40dp</dimen>
+    <dimen name="survey_rating_horizontal_padding">100dp</dimen>
+    <dimen name="survey_rating_image_container_margin_bottom">20dp</dimen>
+    <dimen name="survey_rating_image_large_button_horizontal_padding">100dp</dimen>
+    <dimen name="survey_rating_number_large_button_horizontal_padding">100dp</dimen>
+    <dimen name="survey_rating_number_text_size">26sp</dimen>
+    <dimen name="survey_rating_value_text_size">24dp</dimen>
+    <dimen name="survey_single_select_horizontal_padding">48dp</dimen>
+</resources>

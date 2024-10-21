@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s segundo</item>
+        <item quantity="other">%s segundos</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s segundo</item>
+        <item quantity="other">%s segundos</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">punto %s</item>
+        <item quantity="other">puntos %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">punto %s</item>
+        <item quantity="other">puntos %s</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">1 etiqueta actualizada</item>
+        <item quantity="other">%d etiquetas actualizadas</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">1 coincidencia</item>
+        <item quantity="other">%1$d coincidencias</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notificación nueva</item>
+        <item quantity="other">%d notificaciones nuevas</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d estrella de %2$d</item>
+        <item quantity="other">%1$d estrellas de %2$d</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">Se muestra %2$d elemento %1$s</item>
+        <item quantity="other">Se muestran %2$d elementos %1$s</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">1 evento seleccionado</item>
+        <item quantity="other">%1$d eventos seleccionados</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d columna</item>
+        <item quantity="other">%1$d columnas</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d fila</item>
+        <item quantity="other">%1$d filas</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d elemento</item>
+        <item quantity="other">%1$d elementos</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d carácter</item>
+        <item quantity="other">%1$d caracteres</item>
+    </plurals>
+</resources>

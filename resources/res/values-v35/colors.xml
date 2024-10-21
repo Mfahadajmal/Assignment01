@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="settingslib_colorSurfaceHeader">@color/settingslib_materialColorSurfaceVariant</color>
+    <color name="settingslib_dialog_accent">@color/settingslib_materialColorPrimary</color>
+    <color name="settingslib_dialog_background">@color/settingslib_materialColorSurfaceContainerHigh</color>
+    <color name="settingslib_materialColorOnPrimary">@android:color/car_action1_light</color>
+    <color name="settingslib_materialColorOnPrimaryContainer">@android:color/car_action1</color>
+    <color name="settingslib_materialColorOnSurface">@android:color/car_blue_grey_800</color>
+    <color name="settingslib_materialColorOnSurfaceInverse">@android:color/car_green_300</color>
+    <color name="settingslib_materialColorOnSurfaceVariant">@android:color/car_body3_dark</color>
+    <color name="settingslib_materialColorOutline">@android:color/car_body3_light</color>
+    <color name="settingslib_materialColorPrimary">@android:color/car_action1_dark</color>
+    <color name="settingslib_materialColorPrimaryContainer">@android:color/car_accent_light</color>
+    <color name="settingslib_materialColorPrimaryFixed">@android:color/car_headline1_light</color>
+    <color name="settingslib_materialColorSecondaryContainer">@android:color/car_background</color>
+    <color name="settingslib_materialColorSurfaceContainer">@android:color/car_body1_dark</color>
+    <color name="settingslib_materialColorSurfaceContainerHigh">@android:color/car_body1_light</color>
+    <color name="settingslib_materialColorSurfaceContainerHighest">@android:color/car_body2</color>
+    <color name="settingslib_materialColorSurfaceVariant">@android:color/car_body3</color>
+    <color name="settingslib_spinner_dropdown_color">@color/settingslib_materialColorOnPrimaryContainer</color>
+    <color name="settingslib_state_off_color">@color/settingslib_materialColorPrimaryContainer</color>
+    <color name="settingslib_state_on_color">@color/settingslib_materialColorPrimaryContainer</color>
+    <color name="settingslib_text_color_preference_category_title">@color/settingslib_materialColorPrimary</color>
+    <color name="settingslib_thumb_disabled_color">@color/settingslib_materialColorOutline</color>
+    <color name="settingslib_thumb_off_color">@color/settingslib_materialColorOutline</color>
+    <color name="settingslib_thumb_on_color">@color/settingslib_materialColorOnPrimary</color>
+    <color name="settingslib_track_off_color">@color/settingslib_materialColorSurfaceContainerHighest</color>
+    <color name="settingslib_track_on_color">@color/settingslib_materialColorPrimary</color>
+</resources>

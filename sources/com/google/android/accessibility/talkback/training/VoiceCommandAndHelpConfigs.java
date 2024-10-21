@@ -1,0 +1,108 @@
+package com.google.android.accessibility.talkback.training;
+
+import com.google.android.accessibility.talkback.trainingcommon.NavigationButtonBar;
+import com.google.android.accessibility.talkback.trainingcommon.PageConfig;
+import com.google.android.accessibility.talkback.trainingcommon.TrainingConfig;
+import com.google.android.accessibility.talkback.trainingcommon.content.Text;
+import com.google.android.marvin.talkback.R;
+import com.google.common.collect.ImmutableList;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+public final class VoiceCommandAndHelpConfigs {
+    public static final TrainingConfig VOICE_COMMAND_HELP;
+    public static final PageConfig.Builder VoiceCommandDeviceNavigation;
+    public static final PageConfig.Builder VoiceCommandFindItems;
+    public static final PageConfig.Builder VoiceCommandOtherCommands;
+    public static final PageConfig.Builder VoiceCommandOverView;
+    public static final PageConfig.Builder VoiceCommandReadingControls;
+    public static final PageConfig.Builder VoiceCommandTextEditing;
+
+    static {
+        PageConfig.Builder builder = new PageConfig.Builder(PageConfig.PageId.PAGE_ID_VOICE_COMMAND_OVERVIEW, R.string.voice_commands_help_title);
+        builder.hidePageNumber$ar$ds();
+        builder.setEndOfSection$ar$ds();
+        builder.addText$ar$ds$ac980ab3_0(R.string.voice_commands_help_description, ImmutableList.of((Object) Integer.valueOf(R.string.title_pref_help)));
+        builder.addText$ar$ds(R.string.voice_commands_help_hint);
+        builder.addLink$ar$ds(R.string.shortcut_title_reading_control, R.string.voice_commands_help_reading_controls_description, R.drawable.quantum_gm_ic_hearing_googblue_24, R.string.voice_commands_help_reading_controls_title);
+        builder.addLink$ar$ds(R.string.voice_commands_help_find_items_title, R.string.voice_commands_help_find_items_description, R.drawable.quantum_gm_ic_search_googblue_24, R.string.voice_commands_help_find_items_title);
+        builder.addLink$ar$ds(R.string.shortcut_title_text_editing, R.string.voice_commands_help_text_editing_description, R.drawable.quantum_gm_ic_text_fields_alt_googblue_24, R.string.shortcut_title_text_editing);
+        builder.addLink$ar$ds(R.string.voice_commands_help_device_navigation_title, R.string.voice_commands_help_device_navigation_description, R.drawable.quantum_gm_ic_smartphone_googblue_24, R.string.voice_commands_help_device_navigation_title);
+        builder.addLink$ar$ds(R.string.voice_commands_help_other_commands_title, R.string.voice_commands_help_other_commands_description, R.drawable.quantum_gm_ic_more_horiz_googblue_24, R.string.voice_commands_help_other_commands_title);
+        VoiceCommandOverView = builder;
+        PageConfig.Builder builder2 = new PageConfig.Builder(PageConfig.PageId.PAGE_ID_VOICE_COMMAND_READING_CONTROLS, R.string.voice_commands_help_reading_controls_title);
+        builder2.addTextWithBullet$ar$ds(R.string.shortcut_read_from_current);
+        builder2.addTextWithBullet$ar$ds(R.string.title_read_from_top);
+        builder2.addTextWithBullet$ar$ds(R.string.voice_commands_help_next);
+        builder2.addSubText$ar$ds(R.string.voice_commands_help_next_description);
+        builder2.addTextWithBullet$ar$ds(R.string.voice_commands_help_navigation);
+        builder2.addSubText$ar$ds(R.string.voice_commands_help_navigation_description);
+        builder2.addTextWithBullet$ar$ds(R.string.voice_commands_help_speech_rate);
+        builder2.addSubText$ar$ds(R.string.voice_commands_help_speech_rate_description);
+        builder2.addTextWithBullet$ar$ds(R.string.voice_commands_help_verbosity);
+        builder2.addSubText$ar$ds(R.string.voice_commands_help_verbosity_description);
+        builder2.addTextWithBullet$ar$ds(R.string.voice_commands_first);
+        builder2.addSubText$ar$ds(R.string.voice_commands_help_first_description);
+        builder2.addTextWithBullet$ar$ds(R.string.voice_commands_last);
+        builder2.addSubText$ar$ds(R.string.voice_commands_help_last_description);
+        builder2.addTextWithBullet$ar$ds(R.string.voice_commands_languages);
+        builder2.addSubText$ar$ds(R.string.voice_commands_help_languages_description);
+        VoiceCommandReadingControls = builder2;
+        PageConfig.Builder builder3 = new PageConfig.Builder(PageConfig.PageId.PAGE_ID_VOICE_COMMAND_FIND_ITEMS, R.string.voice_commands_help_find_items_title);
+        builder3.addTextWithBullet$ar$ds(R.string.voice_commands_help_find_text);
+        builder3.addSubText$ar$ds(R.string.voice_commands_help_find_text_description);
+        builder3.addTextWithBullet$ar$ds(R.string.voice_commands_find);
+        builder3.addSubText$ar$ds(R.string.voice_commands_help_find_description);
+        builder3.addTextWithBullet$ar$ds(R.string.voice_commands_screen_search);
+        builder3.addSubText$ar$ds(R.string.voice_commands_help_screen_search_description);
+        VoiceCommandFindItems = builder3;
+        PageConfig.Builder builder4 = new PageConfig.Builder(PageConfig.PageId.PAGE_ID_VOICE_COMMAND_TEXT_EDITING, R.string.shortcut_title_text_editing);
+        builder4.addTextWithBullet$ar$ds(R.string.voice_commands_help_type_text);
+        builder4.addTextWithBullet$ar$ds(android.R.string.selectAll);
+        builder4.addTextWithBullet$ar$ds(R.string.voice_commands_select);
+        builder4.addTextWithBullet$ar$ds(R.string.voice_commands_deselect);
+        builder4.addTextWithBullet$ar$ds(android.R.string.copy);
+        builder4.addSubText$ar$ds(R.string.voice_commands_help_copy_description);
+        builder4.addTextWithBullet$ar$ds(android.R.string.cut);
+        builder4.addSubText$ar$ds(R.string.voice_commands_help_cut_description);
+        builder4.addTextWithBullet$ar$ds(R.string.voice_commands_delete);
+        builder4.addSubText$ar$ds(R.string.voice_commands_help_delete_description);
+        builder4.addTextWithBullet$ar$ds(android.R.string.paste);
+        builder4.addTextWithBullet$ar$ds(R.string.voice_commands_edit_options);
+        VoiceCommandTextEditing = builder4;
+        PageConfig.Builder builder5 = new PageConfig.Builder(PageConfig.PageId.PAGE_ID_VOICE_COMMAND_DEVICE_NAVIGATION, R.string.voice_commands_help_device_navigation_title);
+        builder5.hidePageNumber$ar$ds();
+        builder5.addTextWithBullet$ar$ds(R.string.voice_commands_home);
+        builder5.addTextWithBullet$ar$ds(R.string.voice_commands_back);
+        builder5.addTextWithBullet$ar$ds(R.string.voice_commands_notifications);
+        builder5.addTextWithBullet$ar$ds(R.string.voice_commands_quick_settings);
+        builder5.addTextWithBullet$ar$ds(R.string.voice_commands_overview);
+        builder5.addSubText$ar$ds(R.string.voice_commands_help_overview_description);
+        PageConfig.PageAndContentPredicate pageAndContentPredicate = PageConfig.PageAndContentPredicate.SUPPORT_SYSTEM_ACTIONS;
+        Text.Paragraph.Builder builder6 = Text.Paragraph.builder(R.string.voice_commands_all_apps);
+        builder6.setBulletPoint$ar$ds(true);
+        Text text = new Text(builder6.autoBuild());
+        text.setShowingPredicate(pageAndContentPredicate);
+        builder5.contents.add(text);
+        builder5.addTextWithBullet$ar$ds(R.string.voice_commands_assistant);
+        builder5.addSubText$ar$ds(R.string.voice_commands_help_assistant_description);
+        VoiceCommandDeviceNavigation = builder5;
+        PageConfig.Builder builder7 = new PageConfig.Builder(PageConfig.PageId.PAGE_ID_VOICE_COMMAND_OTHER_COMMANDS, R.string.voice_commands_help_other_commands_title);
+        builder7.addTextWithBullet$ar$ds(R.string.voice_commands_talkback_settings);
+        builder7.addTextWithBullet$ar$ds(R.string.shortcut_enable_dimming);
+        builder7.addSubText$ar$ds(R.string.voice_commands_help_hide_screen_description);
+        builder7.addTextWithBullet$ar$ds(R.string.shortcut_disable_dimming);
+        builder7.addSubText$ar$ds(R.string.voice_commands_help_show_screen_description);
+        builder7.addTextWithBullet$ar$ds(R.string.title_custom_action);
+        builder7.addSubText$ar$ds(R.string.voice_commands_help_actions_description);
+        builder7.addTextWithBullet$ar$ds(R.string.voice_commands_help_label);
+        builder7.addSubText$ar$ds(R.string.voice_commands_help_label_description);
+        builder7.addTextWithBullet$ar$ds(R.string.voice_commands_stop);
+        builder7.addSubText$ar$ds(R.string.voice_commands_help_stop_description);
+        VoiceCommandOtherCommands = builder7;
+        TrainingConfig.Builder addPageEndOfSection = new TrainingConfig.Builder(R.string.voice_commands_help_title).addPageWithoutNumberAndNavigationBar(builder).addPageEndOfSection(builder2).addPageEndOfSection(builder3).addPageEndOfSection(builder4).addPageEndOfSection(builder5).addPageEndOfSection(builder7);
+        addPageEndOfSection.buttons = NavigationButtonBar.DEFAULT_BUTTONS;
+        addPageEndOfSection.setSupportNavigateUpArrow$ar$ds();
+        VOICE_COMMAND_HELP = addPageEndOfSection.build();
+    }
+}

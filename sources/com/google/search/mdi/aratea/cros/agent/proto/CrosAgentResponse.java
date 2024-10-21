@@ -1,0 +1,54 @@
+package com.google.search.mdi.aratea.cros.agent.proto;
+
+import com.google.protobuf.GeneratedMessageLite;
+import com.google.protobuf.MessageLiteOrBuilder;
+import com.google.protobuf.Parser;
+import logs.proto.wireless.performance.mobile.SystemHealthProto$PackedHistogram;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+public final class CrosAgentResponse extends GeneratedMessageLite implements MessageLiteOrBuilder {
+    public static final CrosAgentResponse DEFAULT_INSTANCE;
+    private static volatile Parser PARSER;
+
+    static {
+        CrosAgentResponse crosAgentResponse = new CrosAgentResponse();
+        DEFAULT_INSTANCE = crosAgentResponse;
+        GeneratedMessageLite.registerDefaultInstance(CrosAgentResponse.class, crosAgentResponse);
+    }
+
+    private CrosAgentResponse() {
+    }
+
+    @Override // com.google.protobuf.GeneratedMessageLite
+    protected final Object dynamicMethod(GeneratedMessageLite.MethodToInvoke methodToInvoke, Object obj, Object obj2) {
+        switch (methodToInvoke) {
+            case GET_MEMOIZED_IS_INITIALIZED:
+                return (byte) 1;
+            case SET_MEMOIZED_IS_INITIALIZED:
+                return null;
+            case BUILD_MESSAGE_INFO:
+                return newMessageInfo(DEFAULT_INSTANCE, "\u0001\u0000", null);
+            case NEW_MUTABLE_INSTANCE:
+                return new CrosAgentResponse();
+            case NEW_BUILDER:
+                return new SystemHealthProto$PackedHistogram.Builder((byte[]) null, (int[]) null);
+            case GET_DEFAULT_INSTANCE:
+                return DEFAULT_INSTANCE;
+            case GET_PARSER:
+                Parser parser = PARSER;
+                if (parser == null) {
+                    synchronized (CrosAgentResponse.class) {
+                        parser = PARSER;
+                        if (parser == null) {
+                            parser = new GeneratedMessageLite.DefaultInstanceBasedParser(DEFAULT_INSTANCE);
+                            PARSER = parser;
+                        }
+                    }
+                }
+                return parser;
+            default:
+                throw new UnsupportedOperationException();
+        }
+    }
+}

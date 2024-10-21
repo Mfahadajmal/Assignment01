@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s ثانیه</item>
+        <item quantity="other">%s ثانیه</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s ثانیه</item>
+        <item quantity="other">%s ثانیه</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">نقطه %s</item>
+        <item quantity="other">نقاط %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">نقطه %s</item>
+        <item quantity="other">نقاط %s</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">%d برچسب به‌روز شد</item>
+        <item quantity="other">%d برچسب به‌روز شد</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">%1$d مورد منطبق</item>
+        <item quantity="other">%1$d مورد منطبق</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d اعلان جدید</item>
+        <item quantity="other">%d اعلان جدید</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">%1$s درحال نمایش %2$d مورد</item>
+        <item quantity="other">%1$s درحال نمایش %2$d مورد</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">%1$d رویداد انتخاب شد</item>
+        <item quantity="other">%1$d رویداد انتخاب شد</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d ستون</item>
+        <item quantity="other">%1$d ستون</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d سطر</item>
+        <item quantity="other">%1$d سطر</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d مورد</item>
+        <item quantity="other">%1$d مورد</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d نویسه</item>
+        <item quantity="other">%1$d نویسه</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:summary="@string/s2s_service_summary"
+    android:settingsActivity="com.google.android.accessibility.selecttospeak.activities.SelectToSpeakPreferencesActivity"
+    android:accessibilityEventTypes="typeWindowContentChanged|typeViewLongClicked|typeViewClicked"
+    android:accessibilityFeedbackType="feedbackVisual|feedbackSpoken"
+    android:accessibilityFlags="flagRequestAccessibilityButton|flagEnableAccessibilityVolume|flagRetrieveInteractiveWindows|flagRequestFilterKeyEvents|flagReportViewIds|flagDefault"
+    android:canRetrieveWindowContent="true"
+    android:canRequestFilterKeyEvents="true"
+    android:animatedImageDrawable="@drawable/s2s_intro"
+    android:htmlDescription="@string/s2s_service_htmldescription"
+    android:canTakeScreenshot="true"
+    android:isAccessibilityTool="true"/>

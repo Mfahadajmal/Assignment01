@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">Saavutettavuusvalikko on suuri näyttövalikko, josta voit ohjata laitettasi. Voit esimerkiksi lukita laitteen, säätää äänenvoimakkuutta ja kirkkautta sekä ottaa kuvakaappauksia.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Teksti puhuttuna ‑ominaisuuden käyttö&lt;/b&gt;&lt;br&gt;Käynnistä ensin Teksti puhuttuna, niin voit tehdä seuraavaa:&lt;br&gt;• Napauta jotakin kohtaa, esim. tekstiä tai kuvaa&lt;br&gt;• Valitse enemmän sisältöä vetämällä sormea näytöllä&lt;br&gt;• Kuuntele koko näytön sisältö napauttamalla toistopainiketta&lt;br&gt;• Valitse kameranäkymässä oleva teksti&lt;br&gt;</string>
+    <string name="s2s_service_intro">Napauta näytöllä olevia kohteita, niin kuulet niiden sisällön tai kuvauksen ääneen luettuna</string>
+    <string name="talkback_service_html_description">&lt;b&gt;TalkBackin käyttö&lt;/b&gt;&lt;br&gt;• Siirry kohteesta toiseen pyyhkäisemällä oikealle tai vasemmalle&lt;br&gt;• Aktivoi kohde kaksoisnapauttamalla&lt;br&gt;• Vieritä vetämällä kahta sormea&lt;br&gt;&lt;br&gt;&lt;b&gt;TalkBackin laittaminen pois päältä&lt;/b&gt;&lt;br&gt;1. Valitse asetuksissa &lt;b&gt;Käytä TalkBackia&lt;/b&gt;. Näet reunuksen. Kaksoisnapauta sitä.&lt;br&gt;2. Valitse vahvistusviestistä &lt;b&gt;Lopeta&lt;/b&gt;. Näet reunuksen. Kaksoisnapauta sitä.</string>
+    <string name="talkback_service_intro">TalkBack antaa äänipalautetta, joten voit käyttää laitetta näyttöä katsomatta. TalkBack voi auttaa, jos näytön näkemisessä on vaikeuksia.</string>
+</resources>

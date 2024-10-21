@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s δευτερόλεπτο</item>
+        <item quantity="other">%s δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s δευτερόλεπτο</item>
+        <item quantity="other">%s δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">κουκκίδα %s</item>
+        <item quantity="other">κουκκίδες %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">κουκκίδα %s</item>
+        <item quantity="other">κουκκίδες %s</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">1 ετικέτα ενημερώθηκε</item>
+        <item quantity="other">%d ετικέτες ενημερώθηκαν</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">1 αποτέλεσμα</item>
+        <item quantity="other">%1$d αποτελέσματα</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d νέα ειδοποίηση</item>
+        <item quantity="other">%d νέες ειδοποιήσεις</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d στα %2$d αστέρια</item>
+        <item quantity="other">%1$d στα %2$d αστέρια</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">Το %1$s εμφανίζει %2$d στοιχείο</item>
+        <item quantity="other">Το %1$s εμφανίζει %2$d στοιχεία</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">Επιλέχθηκε 1 συμβάν</item>
+        <item quantity="other">Επιλέχθηκαν %1$d συμβάντα</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d στήλη</item>
+        <item quantity="other">%1$d στήλες</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d σειρά</item>
+        <item quantity="other">%1$d σειρές</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d στοιχείο</item>
+        <item quantity="other">%1$d στοιχεία</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d χαρακτήρας</item>
+        <item quantity="other">%1$d χαρακτήρες</item>
+    </plurals>
+</resources>

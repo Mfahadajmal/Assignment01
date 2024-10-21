@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s วินาที</item>
+        <item quantity="other">%s วินาที</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s วินาที</item>
+        <item quantity="other">%s วินาที</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">จุด %s</item>
+        <item quantity="other">จุด %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">จุด %s</item>
+        <item quantity="other">จุด %s</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">อัปเดตป้ายกำกับแล้ว 1 ป้าย</item>
+        <item quantity="other">อัปเดตป้ายกำกับแล้ว %d ป้าย</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">ตรงกัน 1 รายการ</item>
+        <item quantity="other">ตรงกัน %1$d รายการ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d จาก %2$d ดาว</item>
+        <item quantity="other">%1$d จาก %2$d ดาว</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">%1$sกำลังแสดง %2$d รายการ</item>
+        <item quantity="other">%1$sกำลังแสดง %2$d รายการ</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">เลือกแล้ว 1 กิจกรรม</item>
+        <item quantity="other">เลือกแล้ว %1$d กิจกรรม</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d คอลัมน์</item>
+        <item quantity="other">%1$d คอลัมน์</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d แถว</item>
+        <item quantity="other">%1$d แถว</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d รายการ</item>
+        <item quantity="other">%1$d รายการ</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d ตัว</item>
+        <item quantity="other">%1$d ตัว</item>
+    </plurals>
+</resources>

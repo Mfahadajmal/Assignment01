@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference
+        android:persistent="true"
+        android:title="@string/accessibility_menu_large_buttons_title"
+        android:key="@string/pref_large_buttons"
+        android:summary="@string/accessibility_menu_large_buttons_summary"
+        android:defaultValue="false"
+        app:allowDividerBelow="true"/>
+    <Preference
+        android:title="@string/pref_help_and_feedback_title"
+        android:key="@string/pref_help"
+        app:allowDividerAbove="true"/>
+</androidx.preference.PreferenceScreen>

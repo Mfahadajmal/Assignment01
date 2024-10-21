@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s sekunda</item>
+        <item quantity="few">%s sekunde</item>
+        <item quantity="other">%s sekundi</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s s</item>
+        <item quantity="few">%s s</item>
+        <item quantity="other">%s s</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">tačke %s</item>
+        <item quantity="few">tačke %s</item>
+        <item quantity="other">tačke %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">tačke %s</item>
+        <item quantity="few">tačke %s</item>
+        <item quantity="other">tačke %s</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">%d oznaka je ažurirana</item>
+        <item quantity="few">%d oznake su ažurirane</item>
+        <item quantity="other">%d oznaka je ažurirano</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">%1$d rezultat</item>
+        <item quantity="few">%1$d rezultata</item>
+        <item quantity="other">%1$d rezultata</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d novo obavještenje</item>
+        <item quantity="few">%d nova obavještenja</item>
+        <item quantity="other">%d novih obavještenja</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">%1$s prikazuje %2$d stavku</item>
+        <item quantity="few">%1$s prikazuje %2$d stavke</item>
+        <item quantity="other">%1$s prikazuje %2$d stavki</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">odabran je %1$d događaj</item>
+        <item quantity="few">odabrana su %1$d događaja</item>
+        <item quantity="other">odabrano je %1$d događaja</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d kolona</item>
+        <item quantity="few">%1$d kolone</item>
+        <item quantity="other">%1$d kolona</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d red</item>
+        <item quantity="few">%1$d reda</item>
+        <item quantity="other">%1$d redova</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d stavka</item>
+        <item quantity="few">%1$d stavke</item>
+        <item quantity="other">%1$d stavki</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d znak</item>
+        <item quantity="few">%1$d znaka</item>
+        <item quantity="other">%1$d znakova</item>
+    </plurals>
+</resources>

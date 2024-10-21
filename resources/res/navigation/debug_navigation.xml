@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/debug_navigation"
+    app:startDestination="@+id/navigation_filegroups">
+    <fragment
+        android:label="@string/mdd_file_groups_nav_title"
+        android:name="com.google.android.libraries.mdi.download.debug.dagger.MddDebugMainFragment"
+        android:id="@+id/navigation_filegroups"/>
+    <fragment
+        android:label="@string/mdd_debug_info_nav_title"
+        android:name="com.google.android.libraries.mdi.download.debug.dagger.MddDebugInfoFragment"
+        android:id="@+id/navigation_debuginfo"/>
+</navigation>

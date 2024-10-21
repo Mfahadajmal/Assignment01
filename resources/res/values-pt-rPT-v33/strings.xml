@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">O menu Acessibilidade disponibiliza um menu grande no ecrã para controlar o dispositivo. Pode bloquear o dispositivo, controlar o volume e o brilho, fazer capturas de ecrã e muito mais.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Como usar a funcionalidade Selecionar para falar&lt;/b&gt;&lt;br&gt;Inicie a funcionalidade Selecionar para falar para:&lt;br&gt;• Tocar num item específico, como texto ou uma imagem&lt;br&gt;• Arrastar o dedo pelo ecrã para selecionar vários itens&lt;br&gt;• Tocar em Reproduzir para ouvir tudo o que está no ecrã&lt;br&gt;• Selecionar texto que aparece na vista da Câmara&lt;br&gt;</string>
+    <string name="s2s_service_intro">Toque em itens específicos no ecrã para que sejam lidos ou descritos em voz alta</string>
+    <string name="talkback_service_html_description">&lt;b&gt;Como usar o TalkBack&lt;/b&gt;&lt;br&gt;• Deslize para a esquerda ou para a direita para se mover entre itens&lt;br&gt;• Toque duas vezes para ativar um item&lt;br&gt;• Arraste com 2 dedos para deslocar a página&lt;br&gt;&lt;br&gt;&lt;b&gt;Como desativar o TalkBack&lt;/b&gt;&lt;br&gt;1. Nas Definições, toque em &lt;b&gt;Usar TalkBack&lt;/b&gt;. É apresentado um contorno. Toque duas vezes nesse contorno.&lt;br&gt;2. Na mensagem de confirmação, toque em &lt;b&gt;Parar&lt;/b&gt;. É apresentado um contorno. Toque duas vezes nesse contorno.</string>
+    <string name="talkback_service_intro">O TalkBack disponibiliza feedback de voz para que possa usar o dispositivo sem olhar para o ecrã. O TalkBack pode ser útil para pessoas com dificuldade de visualização do ecrã.</string>
+</resources>

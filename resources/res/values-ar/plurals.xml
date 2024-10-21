@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="zero">‫%s ثانية</item>
+        <item quantity="one">ثانية واحدة (%s)</item>
+        <item quantity="two">ثانيتان (%s)</item>
+        <item quantity="few">‫%s ثوانٍ</item>
+        <item quantity="many">‫%s ثانية</item>
+        <item quantity="other">‫%s ثانية</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="zero">%s ثانية</item>
+        <item quantity="one">ثانية واحدة (%s)</item>
+        <item quantity="two">ثانيتان (%s)</item>
+        <item quantity="few">%s ثوانٍ</item>
+        <item quantity="many">%s ثانية</item>
+        <item quantity="other">%s ثانية</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="zero">النقاط %s</item>
+        <item quantity="one">النقطة %s</item>
+        <item quantity="two">النقطتَين %s</item>
+        <item quantity="few">النقاط %s</item>
+        <item quantity="many">النقاط %s</item>
+        <item quantity="other">النقاط %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="zero">%s نقطة</item>
+        <item quantity="one">نقطة واحدة (%s)</item>
+        <item quantity="two">نقطتان (%s)</item>
+        <item quantity="few">%s نقاط</item>
+        <item quantity="many">%s نقطة</item>
+        <item quantity="other">%s نقطة</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="zero">ليست هناك تصنيفات جديدة</item>
+        <item quantity="one">تم تحديث تصنيف واحد</item>
+        <item quantity="two">تم تحديث تصنيفين (%d)</item>
+        <item quantity="few">تم تحديث %d تصنيفات</item>
+        <item quantity="many">تم تحديث %d تصنيفًا</item>
+        <item quantity="other">تم تحديث %d تصنيف</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="zero">%1$d مطابقة</item>
+        <item quantity="one">مطابقة واحدة</item>
+        <item quantity="two">مطابقتان (%1$d)</item>
+        <item quantity="few">%1$d مطابقات</item>
+        <item quantity="many">%1$d مطابقة</item>
+        <item quantity="other">%1$d مطابقة</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="zero">%1$d نجمة من أصل %2$d</item>
+        <item quantity="one">نجمة واحدة (%1$d) من أصل %2$d</item>
+        <item quantity="two">نجمتان (%1$d) من أصل %2$d</item>
+        <item quantity="few">%1$d نجوم من أصل %2$d</item>
+        <item quantity="many">%1$d نجمةً من أصل %2$d</item>
+        <item quantity="other">%1$d نجمة من أصل %2$d</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="zero">يُعرض %2$d عنصر في %1$s.</item>
+        <item quantity="one">يُعرض عنصر واحد (%2$d) في %1$s.</item>
+        <item quantity="two">يُعرض عنصران (%2$d) في %1$s.</item>
+        <item quantity="few">يُعرض %2$d عناصر في %1$s.</item>
+        <item quantity="many">يُعرض %2$d عنصرًا في %1$s.</item>
+        <item quantity="other">يُعرض %2$d عنصر في %1$s.</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="zero">تم اختيار %1$d حدث</item>
+        <item quantity="one">تم اختيار حدث واحد</item>
+        <item quantity="two">تم اختيار حدثين (%1$d)</item>
+        <item quantity="few">تم اختيار %1$d أحداث</item>
+        <item quantity="many">تم اختيار %1$d أحداثًا</item>
+        <item quantity="other">تم اختيار %1$d حدث</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="zero">%1$d عمود</item>
+        <item quantity="one">%1$d عمود</item>
+        <item quantity="two">عمودان (%1$d)</item>
+        <item quantity="few">%1$d أعمدة</item>
+        <item quantity="many">%1$d عمودًا</item>
+        <item quantity="other">%1$d عمود</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="zero">%1$d صف</item>
+        <item quantity="one">%1$d صف</item>
+        <item quantity="two">صفان (%1$d)</item>
+        <item quantity="few">%1$d صفوف</item>
+        <item quantity="many">%1$d صفًا</item>
+        <item quantity="other">%1$d صف</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="zero">%1$d عنصر</item>
+        <item quantity="one">%1$d عنصر</item>
+        <item quantity="two">عنصران (%1$d)</item>
+        <item quantity="few">%1$d عناصر</item>
+        <item quantity="many">%1$d عنصرًا</item>
+        <item quantity="other">%1$d عنصر</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="zero">%1$d characters</item>
+        <item quantity="one">%1$d حرف واحد</item>
+        <item quantity="two">حرفان (%1$d)</item>
+        <item quantity="few">%1$d أحرف</item>
+        <item quantity="many">%1$d حرفًا</item>
+        <item quantity="other">%1$d حرف</item>
+    </plurals>
+</resources>

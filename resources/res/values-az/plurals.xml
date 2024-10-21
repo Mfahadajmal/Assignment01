@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s saniyə</item>
+        <item quantity="other">%s saniyə</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s saniyə</item>
+        <item quantity="other">%s saniyə</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">nöqtə %s</item>
+        <item quantity="other">nöqtə %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">nöqtə %s</item>
+        <item quantity="other">nöqtələr %s</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">1 etiket yeniləndi</item>
+        <item quantity="other">%d etiket yeniləndi</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">1 uyğunluq</item>
+        <item quantity="other">%1$d uyğunluq</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d yeni bildiriş</item>
+        <item quantity="other">%d yeni bildiriş</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d/%2$d ulduz</item>
+        <item quantity="other">%1$d/%2$d ulduz</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">%1$s %2$d element göstərir</item>
+        <item quantity="other">%1$s %2$d element göstərir</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">1 tədbir seçildi</item>
+        <item quantity="other">%1$d tədbir seçildi</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d sütun</item>
+        <item quantity="other">%1$d sütun</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d cərgə</item>
+        <item quantity="other">%1$d cərgə</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d element</item>
+        <item quantity="other">%1$d element</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d simvol</item>
+        <item quantity="other">%1$d simvol</item>
+    </plurals>
+</resources>

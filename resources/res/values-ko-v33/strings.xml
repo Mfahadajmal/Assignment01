@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">접근성 메뉴를 사용하면 화면에 크게 표시되는 메뉴로 기기를 제어할 수 있습니다. 기기 잠금, 볼륨 및 밝기 조절, 스크린샷 찍기 등의 작업이 지원됩니다.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;텍스트 읽어주기 사용 방법&lt;/b&gt;&lt;br&gt;텍스트 읽어주기를 시작한 후 사용하는 방법은 다음과 같습니다.&lt;br&gt;• 텍스트나 이미지 등의 항목을 탭합니다.&lt;br&gt;• 여러 항목을 선택하려면 화면을 손가락으로 드래그합니다.&lt;br&gt;• 화면에 표시된 모든 항목을 음성으로 들으려면 재생 버튼을 탭합니다.&lt;br&gt;• 카메라 뷰 안에 표시되는 텍스트를 선택합니다.&lt;br&gt;</string>
+    <string name="s2s_service_intro">화면에서 특정 항목을 탭하면 내용을 소리내어 읽거나 설명해 줍니다.</string>
+    <string name="talkback_service_html_description">&lt;b&gt;TalkBack 사용 방법&lt;/b&gt;&lt;br&gt;• 오른쪽 또는 왼쪽으로 스와이프하여 항목 간 이동&lt;br&gt;• 두 번 탭하여 항목 활성화&lt;br&gt;• 손가락 2개를 드래그하여 스크롤&lt;br&gt;&lt;br&gt;&lt;b&gt;TalkBack 사용 중지 방법&lt;/b&gt;&lt;br&gt;1. 설정에서 &lt;b&gt;TalkBack 사용&lt;/b&gt;을 탭합니다. 그러면 윤곽선이 표시됩니다. 두 번 탭합니다.&lt;br&gt;2. 확인 메시지가 표시되면 &lt;b&gt;중지&lt;/b&gt;를 탭합니다. 그러면 윤곽선이 표시됩니다. 두 번 탭합니다.</string>
+    <string name="talkback_service_intro">TalkBack은 화면을 보지 않고 기기를 사용할 수 있도록 음성 피드백을 제공하는 기능으로, 화면을 보기 어려운 사용자에게 도움을 줄 수 있습니다.</string>
+</resources>

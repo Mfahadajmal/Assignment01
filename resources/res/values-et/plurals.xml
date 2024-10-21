@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s sekund</item>
+        <item quantity="other">%s sekundit</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s sekund</item>
+        <item quantity="other">%s sekundit</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">punkt %s</item>
+        <item quantity="other">punktid %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">punkt %s</item>
+        <item quantity="other">punktid %s</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">Värskendati 1 silti</item>
+        <item quantity="other">Värskendati %d silti</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">1 vaste</item>
+        <item quantity="other">%1$d vastet</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d uus märguanne</item>
+        <item quantity="other">%d uut märguannet</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d tärn %2$d-st</item>
+        <item quantity="other">%1$d tärni %2$d-st</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">%1$s, milles on kuvatud %2$d üksus</item>
+        <item quantity="other">%1$s, milles on kuvatud %2$d üksust</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">Valitud on 1 sündmus</item>
+        <item quantity="other">Valitud on %1$d sündmust</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d veerg</item>
+        <item quantity="other">%1$d veergu</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d rida</item>
+        <item quantity="other">%1$d rida</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d üksus</item>
+        <item quantity="other">%1$d üksust</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d tähemärk</item>
+        <item quantity="other">%1$d tähemärki</item>
+    </plurals>
+</resources>

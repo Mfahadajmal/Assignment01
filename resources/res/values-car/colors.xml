@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="a11y_alert_dialog_bg_color">@color/google_black</color>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference
+        android:title="@string/s2s_pref_enable_snapshot_title"
+        android:key="@string/s2s_pref_enable_snapshot_key"
+        android:summary="@string/s2s_pref_summary_enable_snapshot"
+        android:defaultValue="@bool/s2s_pref_enable_snapshot_default"
+        app:allowDividerAbove="true"/>
+    <SwitchPreference
+        android:title="@string/s2s_pref_allow_snapshot_detail_info_title"
+        android:key="@string/s2s_pref_enable_snapshot_detail_info_key"
+        android:summary="@string/s2s_pref_allow_snapshot_detail_info_summary"
+        android:defaultValue="@bool/s2s_pref_enable_snapshot_default"
+        app:allowDividerAbove="true"/>
+</androidx.preference.PreferenceScreen>

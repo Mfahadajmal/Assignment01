@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">Qulayliklar menyusi telefoningizni boshqarish uchun katta menyuni taqdim etadi. Bu menyu orqali telefonni qulflash, ovoz balandligi va yorqinlikni boshqarish, skrinshotlar olish kabi amallarni bajarish mumkin.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Teginib tinglash xususiyatidan foydalanish&lt;/b&gt;&lt;br&gt;Teginib tinglashni ishga tushiring, keyin:&lt;br&gt;• Matn yoki rasm kabi muayyan element ustiga bosing&lt;br&gt;• Bir nechta elementni tanlash uchun ekran boʻylab barmogʻingizni torting&lt;br&gt;• Ekrandagi hammasini tinglash uchun ijro tugmasini bosing&lt;br&gt;• Kamera rejimida chiqqan matnni belgilang&lt;br&gt;</string>
+    <string name="s2s_service_intro">Ekrandagi maxsus elementlarni oʻqib eshittirish yoki tavsif berishi uchun ularning ustiga bosing</string>
+    <string name="talkback_service_html_description">&lt;b&gt;TalkBack bilan qanday ishlanadi&lt;/b&gt;&lt;br&gt;• Elementlarga oʻtish uchun oʻng yoki chapga suring&lt;br&gt;• Elementni faollashtirish uchun ikki marta bosing&lt;br&gt;• Varaqlash uchun 2 ta barmoq bilan suring&lt;br&gt;&lt;br&gt;&lt;b&gt;TalkBack qanday oʻchiriladi&lt;/b&gt;&lt;br&gt;1. Sozlamalarida &lt;b&gt;TalkBack ishlatish&lt;/b&gt; ustiga bosing. Hoshiya paydo boʻladi. Uning ustiga ikki marta bosing.&lt;br&gt;2. Tasdiqlash xabaridagi &lt;b&gt;Toʻxtatish&lt;/b&gt; ustiga bosing. Hoshiya paydo boʻladi. Uning ustiga bosing.</string>
+    <string name="talkback_service_intro">TalkBack qurilmani ekranga qaramay boshqarishingiz uchun elementlarni oʻqib eshittiradi. TalkBack — ekranni xira koʻruvchilar uchun foydali.</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">Juurdepääsetavuse menüü on suur ekraanil kuvatav menüü, mille abil oma seadet hallata. Saate oma seadme lukustada, hallata helitugevust ja eredust, jäädvustada ekraanipilte ning teha muudki.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Kuidas funktsiooni Vali ja kuula kasutada?&lt;/b&gt;&lt;br&gt;Käivitage funktsioon Vali ja kuula, seejärel saate:&lt;br&gt;• puudutada konkreetset üksust, näiteks teksti või pilti;&lt;br&gt;• lohistada sõrme üle ekraani, et valida mitu üksust;&lt;br&gt;• puudutada nuppu Esita, et kõike ekraanil kuvatut kuulata;&lt;br&gt;• valida teksti, mis on kuvatud kaameravaates.&lt;br&gt;</string>
+    <string name="s2s_service_intro">Ekraanil olevate üksuste ettelugemise või kirjelduse kuulmiseks puudutage konkreetseid üksuseid</string>
+    <string name="talkback_service_html_description">&lt;b&gt;Kuidas TalkBacki kasutada?&lt;/b&gt;&lt;br&gt;• Üksuste vahel liikumiseks pühkige paremale või vasakule.&lt;br&gt;• Üksuse aktiveerimiseks topeltpuudutage.&lt;br&gt;• Kerimiseks lohistage kahe sõrmega.&lt;br&gt;&lt;br&gt;&lt;b&gt;Kuidas TalkBack välja lülitada?&lt;/b&gt;&lt;br&gt;1. Puudutage seadetes valikut &lt;b&gt;Kasuta funktsiooni TalkBack&lt;/b&gt;. Näete piirjoont. Topeltpuudutage seda.&lt;br&gt;2. Puudutage kinnitussõnumis nuppu &lt;b&gt;Peata&lt;/b&gt;. Näete piirjoont. Topeltpuudutage seda.</string>
+    <string name="talkback_service_intro">TalkBack annab suulist tagasisidet, et saaksite seadet kasutada ilma ekraanikuva vaatamata. TalkBack on abiks kehva nägemisvõimega inimestele.</string>
+</resources>

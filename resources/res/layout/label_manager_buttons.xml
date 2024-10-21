@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/LabelManagerTheme"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/import_labels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/label_import"
+        android:singleLine="true"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/export_labels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/title_pref_export_custom_labels"
+        android:singleLine="true"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/revert_import"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/revert_imported_labels"
+        android:singleLine="true"/>
+</LinearLayout>

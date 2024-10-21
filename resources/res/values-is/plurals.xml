@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s sekúnda</item>
+        <item quantity="other">%s sekúndur</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s sekúnda</item>
+        <item quantity="other">%s sekúndur</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">punkt %s</item>
+        <item quantity="other">punkta %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">punktar: %s</item>
+        <item quantity="other">punktar: %s</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">%d merki uppfært</item>
+        <item quantity="other">%d merki uppfærð</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">%1$d samsvörun</item>
+        <item quantity="other">%1$d samsvaranir</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ný tilkynning</item>
+        <item quantity="other">%d nýjar tilkynningar</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d stjarna af %2$d</item>
+        <item quantity="other">%1$d stjörnur af %2$d</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">%1$s sýnir %2$d atriði</item>
+        <item quantity="other">%1$s sýnir %2$d atriði</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">%1$d viðburður valinn</item>
+        <item quantity="other">%1$d viðburðir valdir</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d dálkur</item>
+        <item quantity="other">%1$d dálkar</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d lína</item>
+        <item quantity="other">%1$d línur</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d atriði</item>
+        <item quantity="other">%1$d atriði</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d stafur</item>
+        <item quantity="other">%1$d stafir</item>
+    </plurals>
+</resources>

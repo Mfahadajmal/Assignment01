@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.accessibility.selecttospeak.ui.DrawingBoard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawing_board"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cornerRadius="@dimen/selection_outline_corner_radius"
+    app:handleColor="@color/selection_handle"
+    app:highlightColor="@color/s2s_selection_fill"
+    app:leftBottomHandleSrc="@drawable/selection_handle_left_bottom_24dp"
+    app:leftTopHandleSrc="@drawable/selection_handle_left_top_24dp"
+    app:outlineColor="@color/selection_outline"
+    app:outlineStrokeWidth="@dimen/selection_outline_width"
+    app:rightBottomHandleSrc="@drawable/selection_handle_right_bottom_24dp"
+    app:rightTopHandleSrc="@drawable/selection_handle_right_top_24dp"/>

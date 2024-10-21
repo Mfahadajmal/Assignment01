@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s sekunda</item>
+        <item quantity="few">%s sekundy</item>
+        <item quantity="many">%s sekundy</item>
+        <item quantity="other">%s sekund</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s sekunda</item>
+        <item quantity="few">%s sekundy</item>
+        <item quantity="many">%s sekundy</item>
+        <item quantity="other">%s sekund</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">bod %s</item>
+        <item quantity="few">body %s</item>
+        <item quantity="many">body %s</item>
+        <item quantity="other">body %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">bod %s</item>
+        <item quantity="few">body %s</item>
+        <item quantity="many">body %s</item>
+        <item quantity="other">body %s</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">Byl aktualizován 1 štítek</item>
+        <item quantity="few">Byly aktualizovány %d štítky</item>
+        <item quantity="many">Bylo aktualizováno %d štítku</item>
+        <item quantity="other">Bylo aktualizováno %d štítků</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">1 shoda</item>
+        <item quantity="few">%1$d shody</item>
+        <item quantity="many">%1$d shody</item>
+        <item quantity="other">%1$d shod</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nového oznámení</item>
+        <item quantity="other">%d nových oznámení</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d hvězdička z %2$d</item>
+        <item quantity="few">%1$d hvězdičky z %2$d</item>
+        <item quantity="many">%1$d hvězdičky z %2$d</item>
+        <item quantity="other">%1$d hvězdiček z %2$d</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">%1$s zobrazuje %2$d položku</item>
+        <item quantity="few">%1$s zobrazuje %2$d položky</item>
+        <item quantity="many">%1$s zobrazuje %2$d položky</item>
+        <item quantity="other">%1$s zobrazuje %2$d položek</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">Byla vybrána 1 událost</item>
+        <item quantity="few">Byly vybrány %1$d události</item>
+        <item quantity="many">Bylo vybráno %1$d události</item>
+        <item quantity="other">Bylo vybráno %1$d událostí</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d sloupec</item>
+        <item quantity="few">%1$d sloupce</item>
+        <item quantity="many">%1$d sloupce</item>
+        <item quantity="other">%1$d sloupců</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d řádek</item>
+        <item quantity="few">%1$d řádky</item>
+        <item quantity="many">%1$d řádku</item>
+        <item quantity="other">%1$d řádků</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d položka</item>
+        <item quantity="few">%1$d položky</item>
+        <item quantity="many">%1$d položky</item>
+        <item quantity="other">%1$d položek</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d znak</item>
+        <item quantity="few">%1$d znaky</item>
+        <item quantity="many">%1$d znaku</item>
+        <item quantity="other">%1$d znaků</item>
+    </plurals>
+</resources>

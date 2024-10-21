@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">Aðgengisvalmyndin er stór valmynd sem birtist á skjánum sem má nota til að stjórna tækinu. Þú getur læst tækinu, stjórnað hljóðstyrk og birtustigi, tekið skjámyndir og fleira.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Notkun textaupplestrar&lt;/b&gt;&lt;br&gt;Þegar þú kveikir á textaupplestri geturðu:&lt;br&gt;• Ýtt á tiltekið atriði, eins og texta eða mynd&lt;br&gt;• Dregið fingur yfir skjáinn til að velja mörg atriði&lt;br&gt;• Ýtt á „Spila“ til að heyra allt á skjánum&lt;br&gt;• Valið texta sem birtist í myndavél&lt;br&gt;</string>
+    <string name="s2s_service_intro">Ýttu á tiltekin atriði á skjánum til að heyra þau lesin eða þeim lýst upphátt</string>
+    <string name="talkback_service_html_description">&lt;b&gt;Notkun TalkBack&lt;/b&gt;&lt;br&gt;• Strjúktu til hægri eða vinstri til að fara á milli atriða&lt;br&gt;• Ýttu tvisvar til að virkja atriði&lt;br&gt;• Dragðu 2 fingur til að fletta&lt;br&gt;&lt;br&gt;&lt;b&gt;Slökkt á TalkBack&lt;/b&gt;&lt;br&gt;1. Í stillingunum skaltu ýta á &lt;b&gt;Nota TalkBack&lt;/b&gt;. Útlína mun birtast. Ýttu tvisvar á hana.&lt;br&gt;2. Þegar staðfestingarskilaboðin birtast skaltu ýta á &lt;b&gt;Stöðva&lt;/b&gt;. Útlína mun birtast. Ýttu tvisvar á hana.</string>
+    <string name="talkback_service_intro">TalkBack býður upp á raddsvörun svo þú getir notað tækið þitt án þess að horfa á skjáinn. TalkBack getur gagnast fólki sem á erfitt með að sjá á skjáinn.</string>
+</resources>

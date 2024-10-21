@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s sekunda</item>
+        <item quantity="few">%s sekundy</item>
+        <item quantity="many">%s sekund</item>
+        <item quantity="other">%s sekundy</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s sekunda</item>
+        <item quantity="few">%s sekundy</item>
+        <item quantity="many">%s sekund</item>
+        <item quantity="other">%s sekundy</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">punkt %s</item>
+        <item quantity="few">punkty %s</item>
+        <item quantity="many">punkty %s</item>
+        <item quantity="other">punkty %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">punkt %s</item>
+        <item quantity="few">punkt %s</item>
+        <item quantity="many">punkt %s</item>
+        <item quantity="other">punkt %s</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">1 etykieta została zaktualizowana</item>
+        <item quantity="few">%d etykiety zostały zaktualizowane</item>
+        <item quantity="many">%d etykiet zostało zaktualizowanych</item>
+        <item quantity="other">%d etykiety zostało zaktualizowane</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">1 dopasowanie</item>
+        <item quantity="few">%1$d dopasowania</item>
+        <item quantity="many">%1$d dopasowań</item>
+        <item quantity="other">%1$d dopasowania</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nowe powiadomienie</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+        <item quantity="other">%d nowego powiadomienia</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d gwiazdka na %2$d</item>
+        <item quantity="few">%1$d gwiazdki na %2$d</item>
+        <item quantity="many">%1$d gwiazdek na %2$d</item>
+        <item quantity="other">%1$d gwiazdki na %2$d</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">%1$s z widocznym %2$d elementem</item>
+        <item quantity="few">%1$s z widocznymi %2$d elementami</item>
+        <item quantity="many">%1$s z widocznymi %2$d elementami</item>
+        <item quantity="other">%1$s z widoczną %2$d elementu</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">Wybrano 1 zdarzenie</item>
+        <item quantity="few">Wybrano %1$d zdarzenia</item>
+        <item quantity="many">Wybrano %1$d zdarzeń</item>
+        <item quantity="other">Wybrano %1$d zdarzenia</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d kolumna</item>
+        <item quantity="few">%1$d kolumny</item>
+        <item quantity="many">%1$d kolumn</item>
+        <item quantity="other">%1$d kolumny</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d wiersz</item>
+        <item quantity="few">%1$d wiersze</item>
+        <item quantity="many">%1$d wierszy</item>
+        <item quantity="other">%1$d wiersza</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d element</item>
+        <item quantity="few">%1$d elementy</item>
+        <item quantity="many">%1$d elementów</item>
+        <item quantity="other">%1$d elementu</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d znak</item>
+        <item quantity="few">%1$d znaki</item>
+        <item quantity="many">%1$d znaków</item>
+        <item quantity="other">%1$d znaku</item>
+    </plurals>
+</resources>

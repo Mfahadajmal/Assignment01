@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s секунда</item>
+        <item quantity="few">%s секунди</item>
+        <item quantity="many">%s секунд</item>
+        <item quantity="other">%s секунди</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s с</item>
+        <item quantity="few">%s с</item>
+        <item quantity="many">%s с</item>
+        <item quantity="other">%s с</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">крапку %s</item>
+        <item quantity="few">крапки %s</item>
+        <item quantity="many">крапки %s</item>
+        <item quantity="other">крапки %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">крапка %s</item>
+        <item quantity="few">крапки %s</item>
+        <item quantity="many">крапки %s</item>
+        <item quantity="other">крапки %s</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">Оновлено %d мітку</item>
+        <item quantity="few">Оновлено %d мітки</item>
+        <item quantity="many">Оновлено %d міток</item>
+        <item quantity="other">Оновлено %d мітки</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">%1$d збіг</item>
+        <item quantity="few">%1$d збіги</item>
+        <item quantity="many">%1$d збігів</item>
+        <item quantity="other">%1$d збігу</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d нове сповіщення</item>
+        <item quantity="few">%d нові сповіщення</item>
+        <item quantity="many">%d нових сповіщень</item>
+        <item quantity="other">%d нового сповіщення</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d зірочка з %2$d</item>
+        <item quantity="few">%1$d зірочки з %2$d</item>
+        <item quantity="many">%1$d зірочок з %2$d</item>
+        <item quantity="other">%1$d зірочки з %2$d</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">%1$s, що містить %2$d об’єкт</item>
+        <item quantity="few">%1$s, що містить %2$d об’єкти</item>
+        <item quantity="many">%1$s, що містить %2$d об’єктів</item>
+        <item quantity="other">%1$s, що містить %2$d об’єкта</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">Вибрано %1$d подію</item>
+        <item quantity="few">Вибрано %1$d події</item>
+        <item quantity="many">Вибрано %1$d подій</item>
+        <item quantity="other">Вибрано %1$d події</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d стовпець</item>
+        <item quantity="few">%1$d стовпці</item>
+        <item quantity="many">%1$d стовпців</item>
+        <item quantity="other">%1$d стовпця</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d рядок</item>
+        <item quantity="few">%1$d рядки</item>
+        <item quantity="many">%1$d рядків</item>
+        <item quantity="other">%1$d рядка</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d елемент</item>
+        <item quantity="few">%1$d елементи</item>
+        <item quantity="many">%1$d елементів</item>
+        <item quantity="other">%1$d елемента</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d символ</item>
+        <item quantity="few">%1$d символи</item>
+        <item quantity="many">%1$d символів</item>
+        <item quantity="other">%1$d символу</item>
+    </plurals>
+</resources>

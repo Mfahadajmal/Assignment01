@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s सेकेन्ड</item>
+        <item quantity="other">%s सेकेन्ड</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s सेकेन्ड</item>
+        <item quantity="other">%s सेकेन्ड</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">डट %s</item>
+        <item quantity="other">डटहरू %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">डट %s</item>
+        <item quantity="other">डटहरू %s</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">१ लेबल अद्यावधिक गरियो</item>
+        <item quantity="other">%d लेबलहरू अद्यावधिक गरियो</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">१ वटा मिल्ने वस्तु</item>
+        <item quantity="other">%1$d वटा मिल्ने वस्तुहरू</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d नयाँ सूचना</item>
+        <item quantity="other">%d नयाँ सूचनाहरू</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%2$d मध्ये %1$d तारा</item>
+        <item quantity="other">%2$d मध्ये %1$d तारा</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">%1$s मा %2$d वस्तु देखाइँदै छ</item>
+        <item quantity="other">%1$s मा %2$d वटा वस्तु देखाइँदै छन्</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">१ घटनाक्रमलाई चयन गरियो</item>
+        <item quantity="other">%1$d घटनाक्रमहरूलाई चयन गरियो</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d स्तम्भ</item>
+        <item quantity="other">%1$d स्तम्भहरू</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d पङ्क्ति</item>
+        <item quantity="other">%1$d पङ्क्तिहरू</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d वस्तु</item>
+        <item quantity="other">%1$d वस्तुहरू</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d वर्ण</item>
+        <item quantity="other">%1$d वर्णहरू</item>
+    </plurals>
+</resources>

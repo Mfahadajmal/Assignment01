@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.accessibility.utils.preference.AccessibilitySuiteSwitchPreference
+        android:title="@string/title_pref_vibration"
+        android:key="@string/pref_vibration_key"
+        android:defaultValue="@bool/pref_vibration_default"/>
+    <com.google.android.accessibility.utils.preference.AccessibilitySuiteSwitchPreference
+        android:title="@string/title_pref_use_audio_focus"
+        android:key="@string/pref_use_audio_focus_key"
+        android:summary="@string/summary_audio_ducking"
+        android:defaultValue="@bool/pref_use_audio_focus_default"/>
+    <com.google.android.accessibility.utils.preference.AccessibilitySuiteSwitchPreference
+        android:title="@string/title_pref_soundback"
+        android:key="@string/pref_soundback_key"
+        android:defaultValue="@bool/pref_soundback_default"/>
+    <com.google.android.accessibility.utils.preference.AccessibilitySuiteListPreference
+        android:entries="@array/pref_soundback_volume_entries"
+        android:title="@string/title_pref_soundback_volume"
+        android:key="@string/pref_soundback_volume_key"
+        android:summary="%s"
+        android:dependency="@string/pref_soundback_key"
+        android:defaultValue="@string/pref_soundback_volume_default"
+        android:entryValues="@array/pref_soundback_volume_values"/>
+</PreferenceScreen>

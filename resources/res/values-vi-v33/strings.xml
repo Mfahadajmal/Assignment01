@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">Trình đơn hỗ trợ tiếp cận cung cấp một trình đơn lớn trên màn hình dùng để điều khiển thiết bị. Bạn có thể khóa thiết bị, điều chỉnh âm lượng và độ sáng, chụp ảnh màn hình và thực hiện nhiều chức năng khác.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Cách dùng tính năng Chọn để nói&lt;/b&gt;&lt;br&gt;Mở tính năng Chọn để nói, sau đó bạn có thể:&lt;br&gt;• Nhấn vào một mục cụ thể, chẳng hạn như văn bản hoặc hình ảnh&lt;br&gt;• Lướt ngón tay trên màn hình để chọn nhiều mục&lt;br&gt;• Nhấn vào nút phát để nghe mọi thứ trên màn hình&lt;br&gt;• Chọn văn bản sẽ xuất hiện trong chế độ xem Máy ảnh&lt;br&gt;</string>
+    <string name="s2s_service_intro">Nhấn vào các mục cụ thể trên màn hình để nghe hệ thống đọc hoặc mô tả thành tiếng</string>
+    <string name="talkback_service_html_description">&lt;b&gt;Cách dùng TalkBack&lt;/b&gt;&lt;br&gt;• Vuốt sang phải hoặc sang trái để di chuyển giữa các mục&lt;br&gt;• Nhấn đúp để kích hoạt một mục&lt;br&gt;• Kéo 2 ngón tay để cuộn&lt;br&gt;&lt;br&gt;&lt;b&gt;Cách tắt TalkBack&lt;/b&gt;&lt;br&gt;1. Trong phần Cài đặt, hãy nhấn vào &lt;b&gt;Sử dụng TalkBack&lt;/b&gt;. Một đường viền sẽ xuất hiện. Nhấn đúp vào đó.&lt;br&gt;2. Trên thông báo xác nhận, hãy nhấn vào &lt;b&gt;Dừng&lt;/b&gt;. Một đường viền sẽ xuất hiện. Nhấn đúp vào đó.</string>
+    <string name="talkback_service_intro">TalkBack cung cấp phản hồi bằng giọng nói để bạn có thể sử dụng thiết bị mà không cần nhìn vào màn hình. TalkBack có thể giúp ích cho những người có khả năng đọc thông tin trên màn hình không tốt.</string>
+</resources>

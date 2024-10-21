@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/file_group_container_fragment"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/refresh_file_groups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh Tracked File Groups"/>
+    <Button
+        android:id="@+id/clear_storage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear ALL MDD Storage"/>
+    <FrameLayout
+        android:id="@+id/file_group_list_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

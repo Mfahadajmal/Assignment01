@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        android:title="@string/s2s_pref_tts_title"
+        android:key="@string/s2s_pref_tts_settings_key"
+        app:allowDividerBelow="true"/>
+    <Preference
+        android:title="@string/s2s_pref_summary_change_voice"
+        android:key="@string/s2s_pref_change_voice_key"/>
+    <SwitchPreference
+        android:title="@string/s2s_pref_multitasking_title"
+        android:key="@string/s2s_pref_multitasking_key"
+        android:summary="@string/s2s_pref_summary_multitasking"
+        android:defaultValue="@bool/s2s_pref_multitasking_default"
+        app:allowDividerAbove="true"/>
+    <SwitchPreference
+        android:key="@string/s2s_pref_ocr_key"
+        app:allowDividerAbove="true"/>
+    <Preference
+        android:key="@string/s2s_pref_help_and_feedback_key"
+        app:allowDividerAbove="true"/>
+    <PreferenceScreen
+        android:title="@string/s2s_pref_developer_settings_title"
+        android:key="@string/s2s_pref_developer_settings_key">
+        <intent
+            android:targetPackage="com.google.android.marvin.talkback"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.google.android.accessibility.selecttospeak.activities.S2SDeveloperSettingsPreferenceActivity"/>
+    </PreferenceScreen>
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">Meniul Accesibilitate este un meniu mare afișat pe ecran, cu ajutorul căruia îți controlezi dispozitivul. Poți să blochezi dispozitivul, să ajustezi volumul și luminozitatea, să faci capturi de ecran și multe altele.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Cum să folosești Selectează și ascultă&lt;/b&gt;&lt;br&gt;Pornește Selectează și ascultă. Apoi vei putea:&lt;br&gt;• să atingi un anumit element, cum ar fi un text sau o imagine;&lt;br&gt;• să tragi cu degetul pe ecran pentru a selecta mai multe elemente;&lt;br&gt;• să atingi butonul Redă pentru a auzi totul de pe ecran;&lt;br&gt;• să selectezi textul care apare în vizorul camerei foto.&lt;br&gt;</string>
+    <string name="s2s_service_intro">Atinge anumite elemente de pe ecran pentru a le auzi citite sau descrise cu voce tare</string>
+    <string name="talkback_service_html_description">&lt;b&gt;Cum se folosește TalkBack&lt;/b&gt;&lt;br&gt;• Glisează spre dreapta sau spre stânga pentru a trece de la un element la altul&lt;br&gt;• Atinge de două ori pentru a activa un element&lt;br&gt;• Trage cu două degete pentru a derula&lt;br&gt;&lt;br&gt;&lt;b&gt;Cum se dezactivează TalkBack&lt;/b&gt;&lt;br&gt;1. În Setări, atinge &lt;b&gt;Folosește TalkBack&lt;/b&gt;. Va apărea un contur. Atinge-l de două ori.&lt;br&gt;2. În mesajul de confirmare, atinge &lt;b&gt;Oprește&lt;/b&gt;. Va apărea un contur. Atinge-l de două ori.</string>
+    <string name="talkback_service_intro">TalkBack oferă feedback rostit pentru a folosi dispozitivul fără să te uiți la ecran. Funcția le poate fi utilă utilizatorilor cu dificultăți în a vedea ecranul.</string>
+</resources>

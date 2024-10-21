@@ -1,0 +1,124 @@
+package android.support.v7.widget;
+
+import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.support.v7.app.AppCompatDelegate;
+import android.text.InputFilter;
+import android.util.AttributeSet;
+import android.widget.CheckBox;
+import com.google.android.accessibility.braille.brailledisplay.controller.NodeBrailler;
+import com.google.android.marvin.talkback.R;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+public class AppCompatCheckBox extends CheckBox {
+    private NodeBrailler mAppCompatEmojiTextHelper$ar$class_merging$ar$class_merging$ar$class_merging$ar$class_merging;
+    private final AppCompatBackgroundHelper mBackgroundTintHelper;
+    public final AppCompatCompoundButtonHelper mCompoundButtonHelper;
+    private final AppCompatTextHelper mTextHelper;
+
+    public AppCompatCheckBox(Context context) {
+        this(context, null);
+    }
+
+    private final NodeBrailler getEmojiTextViewHelper$ar$class_merging$ar$class_merging$ar$class_merging$ar$class_merging() {
+        if (this.mAppCompatEmojiTextHelper$ar$class_merging$ar$class_merging$ar$class_merging$ar$class_merging == null) {
+            this.mAppCompatEmojiTextHelper$ar$class_merging$ar$class_merging$ar$class_merging$ar$class_merging = new NodeBrailler(this);
+        }
+        return this.mAppCompatEmojiTextHelper$ar$class_merging$ar$class_merging$ar$class_merging$ar$class_merging;
+    }
+
+    /* JADX INFO: Access modifiers changed from: protected */
+    @Override // android.widget.CompoundButton, android.widget.TextView, android.view.View
+    public void drawableStateChanged() {
+        super.drawableStateChanged();
+        AppCompatBackgroundHelper appCompatBackgroundHelper = this.mBackgroundTintHelper;
+        if (appCompatBackgroundHelper != null) {
+            appCompatBackgroundHelper.applySupportBackgroundTint();
+        }
+        AppCompatTextHelper appCompatTextHelper = this.mTextHelper;
+        if (appCompatTextHelper != null) {
+            appCompatTextHelper.applyCompoundDrawablesTints();
+        }
+    }
+
+    @Override // android.widget.TextView
+    public final void setAllCaps(boolean z) {
+        super.setAllCaps(z);
+        getEmojiTextViewHelper$ar$class_merging$ar$class_merging$ar$class_merging$ar$class_merging().setAllCaps(z);
+    }
+
+    @Override // android.view.View
+    public void setBackgroundDrawable(Drawable drawable) {
+        super.setBackgroundDrawable(drawable);
+        AppCompatBackgroundHelper appCompatBackgroundHelper = this.mBackgroundTintHelper;
+        if (appCompatBackgroundHelper != null) {
+            appCompatBackgroundHelper.onSetBackgroundDrawable$ar$ds();
+        }
+    }
+
+    @Override // android.view.View
+    public void setBackgroundResource(int i) {
+        super.setBackgroundResource(i);
+        AppCompatBackgroundHelper appCompatBackgroundHelper = this.mBackgroundTintHelper;
+        if (appCompatBackgroundHelper != null) {
+            appCompatBackgroundHelper.onSetBackgroundResource(i);
+        }
+    }
+
+    @Override // android.widget.CompoundButton
+    public void setButtonDrawable(int i) {
+        setButtonDrawable(AppCompatDelegate.Api33Impl.getDrawable(getContext(), i));
+    }
+
+    @Override // android.widget.TextView
+    public void setCompoundDrawables(Drawable drawable, Drawable drawable2, Drawable drawable3, Drawable drawable4) {
+        super.setCompoundDrawables(drawable, drawable2, drawable3, drawable4);
+        AppCompatTextHelper appCompatTextHelper = this.mTextHelper;
+        if (appCompatTextHelper != null) {
+            appCompatTextHelper.applyCompoundDrawablesTints();
+        }
+    }
+
+    @Override // android.widget.TextView
+    public void setCompoundDrawablesRelative(Drawable drawable, Drawable drawable2, Drawable drawable3, Drawable drawable4) {
+        super.setCompoundDrawablesRelative(drawable, drawable2, drawable3, drawable4);
+        AppCompatTextHelper appCompatTextHelper = this.mTextHelper;
+        if (appCompatTextHelper != null) {
+            appCompatTextHelper.applyCompoundDrawablesTints();
+        }
+    }
+
+    @Override // android.widget.TextView
+    public final void setFilters(InputFilter[] inputFilterArr) {
+        super.setFilters(getEmojiTextViewHelper$ar$class_merging$ar$class_merging$ar$class_merging$ar$class_merging().getFilters(inputFilterArr));
+    }
+
+    public AppCompatCheckBox(Context context, AttributeSet attributeSet) {
+        this(context, attributeSet, R.attr.checkboxStyle);
+    }
+
+    @Override // android.widget.CompoundButton
+    public void setButtonDrawable(Drawable drawable) {
+        super.setButtonDrawable(drawable);
+        AppCompatCompoundButtonHelper appCompatCompoundButtonHelper = this.mCompoundButtonHelper;
+        if (appCompatCompoundButtonHelper != null) {
+            appCompatCompoundButtonHelper.onSetButtonDrawable();
+        }
+    }
+
+    public AppCompatCheckBox(Context context, AttributeSet attributeSet, int i) {
+        super(TintContextWrapper.wrap(context), attributeSet, i);
+        ThemeUtils.checkAppCompatTheme(this, getContext());
+        AppCompatCompoundButtonHelper appCompatCompoundButtonHelper = new AppCompatCompoundButtonHelper(this);
+        this.mCompoundButtonHelper = appCompatCompoundButtonHelper;
+        appCompatCompoundButtonHelper.loadFromAttributes(attributeSet, i);
+        AppCompatBackgroundHelper appCompatBackgroundHelper = new AppCompatBackgroundHelper(this);
+        this.mBackgroundTintHelper = appCompatBackgroundHelper;
+        appCompatBackgroundHelper.loadFromAttributes(attributeSet, i);
+        AppCompatTextHelper appCompatTextHelper = new AppCompatTextHelper(this);
+        this.mTextHelper = appCompatTextHelper;
+        appCompatTextHelper.loadFromAttributes(attributeSet, i);
+        getEmojiTextViewHelper$ar$class_merging$ar$class_merging$ar$class_merging$ar$class_merging().loadFromAttributes(attributeSet, i);
+    }
+}

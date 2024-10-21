@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s секунд</item>
+        <item quantity="other">%s секунд</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s секунд</item>
+        <item quantity="other">%s секунд</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">%s нүктесі</item>
+        <item quantity="other">%s нүктелері</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">%s нүктесін</item>
+        <item quantity="other">%s нүктелерін</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">1 айдар жаңартылды</item>
+        <item quantity="other">%d айдар жаңартылды</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">1 сәйкестік</item>
+        <item quantity="other">%1$d сәйкестік</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d жаңа хабарландыру</item>
+        <item quantity="other">%d жаңа хабарландыру</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d/%2$d жұлдыз</item>
+        <item quantity="other">%1$d/%2$d жұлдыз</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">%1$s тізімінде %2$d элемент бар.</item>
+        <item quantity="other">%1$s тізімінде %2$d элемент бар.</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">1 оқиға таңдалды</item>
+        <item quantity="other">%1$d оқиға таңдалды</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d баған</item>
+        <item quantity="other">%1$d баған</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d жол</item>
+        <item quantity="other">%1$d жол</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d элемент</item>
+        <item quantity="other">%1$d элемент</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d таңба</item>
+        <item quantity="other">%1$d таңба</item>
+    </plurals>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/TalkBackSettings"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/label_dialog_padding"
+    android:paddingEnd="@dimen/label_dialog_padding">
+    <LinearLayout
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/label_dialog_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/label_dialog_padding"/>
+        <EditText
+            android:id="@+id/label_dialog_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/edittext_min_height"
+            android:hint="@string/label_dialog_edit_hint"
+            android:inputType="text"
+            app:fontFamily="@string/accessibility_font"/>
+    </LinearLayout>
+</ScrollView>

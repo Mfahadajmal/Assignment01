@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">Əlçatımlılıq Menyusu cihazınızı idarə etmək üçün böyük geniş ekran menyusu təqdim edir. Cihazı kilidləyə, səs səviyyəsinə və parlaqlığa nəzarət edə, skrinşotlar çəkə və s. edə bilərsiniz.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;\"Seç və Dinlə\"ni istifadə qaydası\"&lt;/b&gt;&lt;br&gt;Seç və Dinlə\"ni başladın, sonra:&lt;br&gt;• Mətn və ya şəkil kimi müəyyən bir elementə toxunun&lt;br&gt;• Bir neçə elementi seçmək üçün barmağınızı ekranda sürüşdürün&lt;br&gt;• Ekrandakı hər şeyi eşitmək üçün \"Oxudun\" seçiminə toxunun&lt;br&gt;• Kamera görünüşündəki mətni seçin&lt;br&gt;</string>
+    <string name="s2s_service_intro">Ucadan oxunma və ya təsvir edilməsi üçün ekrandakı xüsusi elementlərə toxunun</string>
+    <string name="talkback_service_html_description">&lt;b&gt;TalkBack-dən istifadə qaydası&lt;/b&gt;&lt;br&gt;• Sağ və ya sola sürüşdürərək elementlər arasında keçid edin&lt;br&gt;• İki dəfə toxunaraq elementi aktivləşdirin&lt;br&gt;• 2 barmaqla çəkərək sürüşdürün&lt;br&gt;&lt;br&gt;&lt;b&gt;TalkBack-i deaktiv etmək qaydası&lt;/b&gt;&lt;br&gt;1. Ayarlarda &lt;b&gt;TalkBack-dən istifadə&lt;/b&gt; üzərinə toxunun. Kontur görəcəksiniz. Ona iki dəfə toxunun.&lt;br&gt;2. Təsdiq mesajında &lt;b&gt;Dayandırın&lt;/b&gt; seçiminə toxunun. Kontur görəcəksiniz. Ona iki dəfə toxunun.</string>
+    <string name="talkback_service_intro">TalkBack səsli rəy təmin edir ki, ekrana baxmadan cihazınızdan istifadə edə biləsiniz. TalkBack ekranı görməkdə çətinlik çəkən insanlar üçün faydalı ola bilər.</string>
+</resources>

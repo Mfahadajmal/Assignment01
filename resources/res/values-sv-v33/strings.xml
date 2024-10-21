@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">Tillgänglighetsmenyn är en stor meny på skärmen som du kan styra enheten med. Du kan låsa enheten, ställa in volym och ljusstyrka, ta skärmbilder och annat.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Så här använder du Textuppläsning&lt;/b&gt;&lt;br&gt;Starta Textuppläsning. Sedan kan du&lt;br&gt;• trycka på ett specifikt objekt, till exempel text eller en bild&lt;br&gt;• välja flera objekt genom att dra fingret över skärmen&lt;br&gt;• lyssna på allt som visas på skärmen genom att trycka på uppspelningsknappen&lt;br&gt;• markera text som visas i kameravyn.&lt;br&gt;</string>
+    <string name="s2s_service_intro">Tryck på specifika objekt på skärmen som du vill få upplästa eller beskrivna</string>
+    <string name="talkback_service_html_description">&lt;b&gt;Så här använder du TalkBack&lt;/b&gt;&lt;br&gt;• Flytta mellan objekt genom att svepa åt vänster eller höger.&lt;br&gt;• Aktivera ett objekt genom att trycka snabbt två gånger.&lt;br&gt;• Scrolla genom att dra med två fingrar.&lt;br&gt;&lt;br&gt;&lt;b&gt;Så här inaktiverar du TalkBack&lt;/b&gt;&lt;br&gt;1. Tryck på &lt;b&gt;Använd TalkBack&lt;/b&gt; i inställningarna. Alternativet får konturer. Tryck på det snabbt två gånger.&lt;br&gt;2. Tryck på &lt;b&gt;Stoppa&lt;/b&gt; i bekräftelsemeddelandet. Alternativet får konturer. Tryck på det snabbt två gånger</string>
+    <string name="talkback_service_intro">Med TalkBack får du talad feedback så att du kan använda enheten utan att titta på skärmen. TalkBack kan vara till hjälp för personer som har svårt att se skärmen.</string>
+</resources>

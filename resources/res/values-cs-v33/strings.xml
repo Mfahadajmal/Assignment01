@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">Nabídka usnadnění přístupu zobrazuje na obrazovce velkou nabídku k ovládání zařízení – například k jeho zamknutí, úpravě hlasitosti a jasu, pořízení snímku obrazovky apod.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Používání funkce Poslech vybraného textu&lt;/b&gt;&lt;br&gt;Po spuštění této funkce můžete provést jednu z těchto akcí:&lt;br&gt;• Klepněte na konkrétní položku, například text nebo obrázek.&lt;br&gt;• Přejetím prstem po obrazovce vyberte několik položek.&lt;br&gt;• Klepnutím na tlačítko Přehrát si nechte přečíst veškerý obsah na obrazovce.&lt;br&gt;• Vyberte text, který se objeví v náhledu Fotoaparátu.&lt;br&gt;</string>
+    <string name="s2s_service_intro">Položky na obrazovce si klepnutím můžete nechat nahlas přečíst nebo popsat.</string>
+    <string name="talkback_service_html_description">&lt;b&gt;Jak používat funkci TalkBack&lt;/b&gt;&lt;br&gt;• Přejetím prstem vlevo nebo vpravo lze přecházet mezi položkami.&lt;br&gt;• Dvojitým klepnutím položku aktivujete.&lt;br&gt;• Přetažením dvěma prsty můžete obsah posouvat.&lt;br&gt;&lt;br&gt;&lt;b&gt;Jak vypnout funkci TalkBack&lt;/b&gt;&lt;br&gt;1. V Nastavení klepněte na &lt;b&gt;Používat TalkBack&lt;/b&gt;. Zobrazí se obrys. Dvakrát na něj klepněte.&lt;br&gt;2. V žádosti o potvrzení klepněte na &lt;b&gt;Zastavit&lt;/b&gt;. Zobrazí se obrys. Dvakrát na něj klepněte.</string>
+    <string name="talkback_service_intro">Funkce TalkBack poskytuje hlasovou odezvu, abyste zařízení mohli používat bez pohledu na displej. Může pomoci lidem, kteří na displej nevidí.</string>
+</resources>

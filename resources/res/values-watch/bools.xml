@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="pref_selector_actions_default">false</bool>
+    <bool name="pref_selector_granularity_controls_default">false</bool>
+    <bool name="pref_selector_granularity_lines_default">false</bool>
+    <bool name="pref_selector_granularity_links_default">false</bool>
+    <bool name="pref_selector_granularity_paragraphs_default">false</bool>
+    <bool name="pref_selector_granularity_typo_default">false</bool>
+    <bool name="pref_show_context_menu_copy_last_spoken_phrase_default">false</bool>
+    <bool name="pref_show_context_menu_find_on_screen_default">false</bool>
+    <bool name="pref_show_context_menu_image_caption_default">false</bool>
+    <bool name="pref_show_context_menu_labeling_default">false</bool>
+    <bool name="pref_show_context_menu_language_default">false</bool>
+    <bool name="pref_show_context_menu_read_from_current_default">false</bool>
+    <bool name="pref_show_context_menu_read_from_top_default">true</bool>
+    <bool name="pref_show_context_menu_tts_settings_default">false</bool>
+    <bool name="pref_show_context_menu_typo_suggestions_default">false</bool>
+    <bool name="pref_show_context_menu_voice_commands_default">false</bool>
+    <bool name="pref_show_navigation_menu_container_default">false</bool>
+    <bool name="pref_show_navigation_menu_controls_default">false</bool>
+    <bool name="pref_show_navigation_menu_landmarks_default">false</bool>
+    <bool name="pref_show_navigation_menu_links_default">false</bool>
+    <bool name="pref_show_navigation_menu_window_default">false</bool>
+    <bool name="pref_speak_container_element_positions_default">false</bool>
+    <bool name="pref_vibration_default">false</bool>
+</resources>

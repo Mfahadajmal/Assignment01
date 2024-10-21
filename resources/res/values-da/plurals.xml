@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s sekund</item>
+        <item quantity="other">%s sekunder</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s sekund</item>
+        <item quantity="other">%s sekunder</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">punktet %s</item>
+        <item quantity="other">punkterne %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">punkt %s</item>
+        <item quantity="other">punkterne %s</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">%d etiket blev opdateret</item>
+        <item quantity="other">%d etiketter blev opdateret</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">%1$d match</item>
+        <item quantity="other">%1$d match</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ny notifikation</item>
+        <item quantity="other">%d nye notifikationer</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d stjerne ud af %2$d</item>
+        <item quantity="other">%1$d stjerner ud af %2$d</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">%1$s med %2$d element</item>
+        <item quantity="other">%1$s med %2$d elementer</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">%1$d hændelse er valgt</item>
+        <item quantity="other">%1$d hændelser er valgt</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d kolonne</item>
+        <item quantity="other">%1$d kolonner</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d række</item>
+        <item quantity="other">%1$d rækker</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d element</item>
+        <item quantity="other">%1$d elementer</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d tegn</item>
+        <item quantity="other">%1$d tegn</item>
+    </plurals>
+</resources>

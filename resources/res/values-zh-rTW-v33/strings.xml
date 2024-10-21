@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">無障礙工具選單是螢幕上的大型選單，可用來操控裝置，方便你鎖定裝置、控制音量和亮度、擷取螢幕畫面，以及執行其他功能。</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;如何使用「隨選朗讀」功能&lt;/b&gt;&lt;br&gt;開啟「隨選朗讀」功能後，即可執行下列操作：&lt;br&gt;• 輕觸特定項目，例如文字或圖片&lt;br&gt;• 用手指在螢幕上拖曳即可選取多個項目&lt;br&gt;• 輕觸「播放」即可聽取螢幕畫面上的所有內容&lt;br&gt;• 選取相機畫面上的文字&lt;br&gt;</string>
+    <string name="s2s_service_intro">輕觸畫面上的特定項目，系統就會朗讀內容或說明資訊</string>
+    <string name="talkback_service_html_description">&lt;b&gt;如何使用 TalkBack&lt;/b&gt;&lt;br&gt;• 向右或向左滑動可在項目之間移動&lt;br&gt;• 輕觸兩下可啟動項目&lt;br&gt;• 用 2 指拖曳可捲動畫面&lt;br&gt;&lt;br&gt;&lt;b&gt;如何關閉 TalkBack&lt;/b&gt;&lt;br&gt;1. 在「設定」中輕觸「使用 TalkBack」&lt;b&gt;&lt;/b&gt;，畫面上會出現外框，這時請輕觸兩下。&lt;br&gt;2. 輕觸確認訊息上的「停止」&lt;b&gt;&lt;/b&gt;，畫面上會出現外框，這時請輕觸兩下。</string>
+    <string name="talkback_service_intro">TalkBack 的互動朗讀功能讓你不用看螢幕也能操作 Android 裝置。如果使用者無法查看螢幕，TalkBack 就能派上用場。</string>
+</resources>

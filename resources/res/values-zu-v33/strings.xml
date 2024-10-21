@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">Imenyu yokufinyelela inikezela ngemenyu enkulu esesikrinini ukuze ulawule idivayisi yakho. Ungakhiya idivayisi yakho, ulawule ivolumu nokukhanya, uthathe izithombe-skrini, nokuningi.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Indlela yokusebenzisa okuthi Khetha ukuze ukhulume&lt;/b&gt;&lt;br&gt;Qala okuthi Khetha ukuze ukhulume:&lt;br&gt;• Thepha into ethile, njengombhalo noma isithombe&lt;br&gt;• Hudula umunwe wakho kuso sonke isikrini ukukhetha izinto eziningi&lt;br&gt;• Thepha okuthi Dlala ukuze uzwe yonke into esesikrinini&lt;br&gt;• Khetha umbhalo ovela ngaphakathi kokubuka Kwekhamera&lt;br&gt;</string>
+    <string name="s2s_service_intro">Thepha izinto ezithile esikrinini sakho ukuze uzizwe zifundwa noma zichazwa ngokuphimisela</string>
+    <string name="talkback_service_html_description">&lt;b&gt;Ungayisebenzisa kanjani i-TalkBack&lt;/b&gt;&lt;br&gt;• Swayipha ngakwesokudla noma kwesobunxele ukuze uhambe phakathi kwezinto&lt;br&gt;• Thepha kabili ukuze usebenzise into&lt;br&gt;• Hudula iminwe emi-2 ukuze uskrole&lt;br&gt;&lt;br&gt;&lt;b&gt;Ungayivala kanjani -i-TalkBack&lt;/b&gt;&lt;br&gt;1. KumaSethingi, thepha okuthi &lt;b&gt;Sebenzisa i-TalkBack&lt;/b&gt;. Kuzoba nohlaka. Thepha kabili kulo.&lt;br&gt;2. Kumyalezo wokuqinisekisa, thepha okuthi &lt;b&gt;Misa&lt;/b&gt;.Kuzoba khona uhlaka. Thepha kabili kulo.</string>
+    <string name="talkback_service_intro">I-Talkback inikeza impendulo ekhulunywayo ukuze usebenzise idivayisi yakho ngaphandle kokubheka isikrini. I-TalkBack ingaba wusizo kubantu abanobunzima bokubona isikrini.</string>
+</resources>

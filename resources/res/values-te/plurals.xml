@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s సెకను</item>
+        <item quantity="other">%s సెకన్లు</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s సెకను</item>
+        <item quantity="other">%s సెకన్లు</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">%s చుక్క</item>
+        <item quantity="other">%s చుక్కలు</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">%s డాట్</item>
+        <item quantity="other">%s డాట్‌లు</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">1 లేబుల్ అప్‌డేట్ చేయబడింది</item>
+        <item quantity="other">%d లేబుళ్లు అప్‌డేట్ చేయబడ్డాయి</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">1 సరిపోలిక</item>
+        <item quantity="other">%1$d సరిపోలికలు</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d కొత్త నోటిఫికేషన్</item>
+        <item quantity="other">%d కొత్త నోటిఫికేషన్‌లు</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%2$dకి %1$d నక్షత్రం ఇవ్వబడింది</item>
+        <item quantity="other">%2$dకి %1$d నక్షత్రాలు ఇవ్వబడ్డాయి</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">%1$s %2$d ఐటెమ్‌ను చూపుతోంది</item>
+        <item quantity="other">%1$s %2$d ఐటెమ్‌లను చూపుతోంది</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">1 ఈవెంట్ ఎంచుకోబడింది</item>
+        <item quantity="other">%1$d ఈవెంట్‌లు ఎంచుకోబడ్డాయి</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d నిలువు వరుస</item>
+        <item quantity="other">%1$d నిలువు వరుసలు</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d అడ్డు వరుస</item>
+        <item quantity="other">%1$d అడ్డు వరుసలు</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d అంశం</item>
+        <item quantity="other">%1$d అంశాలు</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d అక్షరం</item>
+        <item quantity="other">%1$d అక్షరాలు</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.RadioButtonPreference
+        android:title="@string/bd_preference_braille_contracted"
+        android:key="@string/pref_key_braille_grade_contracted"/>
+    <com.android.settingslib.widget.RadioButtonPreference
+        android:title="@string/bd_preference_braille_uncontracted"
+        android:key="@string/pref_key_braille_grade_uncontracted"/>
+    <com.android.settingslib.widget.FooterPreference android:key="@string/pref_key_braille_grade_tips"/>
+</PreferenceScreen>

@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="com.google.android.marvin.feedback"
+    android:versionCode="60140767"
+    android:versionName="15.0.1.668772353"
+    android:installLocation="internalOnly"
+    android:compileSdkVersion="35"
+    android:compileSdkVersionCodename="VanillaIceCream"
+    android:sharedUserMaxSdkVersion="32"
+    package="com.google.android.marvin.talkback"
+    platformBuildVersionCode="35"
+    platformBuildVersionName="VanillaIceCream">
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="35"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE"/>
+        </intent>
+        <intent>
+            <action android:name="android.speech.RecognitionService"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="com.google.android.apps.aicore.service.BIND_SERVICE"/>
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="false"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        android:maxSdkVersion="30"/>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:maxSdkVersion="30"/>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:maxSdkVersion="30"/>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        android:maxSdkVersion="30"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_SCAN"
+        android:usesPermissionFlags="neverForLocation"/>
+    <uses-feature android:name="android.hardware.usb.host"/>
+    <uses-permission android:name="com.google.android.marvin.talkback.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <permission
+        android:label="@string/permission_label_access_aas_switch_access_migration"
+        android:name="com.google.android.marvin.talkback.permission.ACCESS_AAS_SWITCH_ACCESS_MIGRATION"
+        android:protectionLevel="normal"
+        android:description="@string/permission_content_access_aas_switch_access_migration"/>
+    <permission
+        android:name="com.google.android.marvin.talkback.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature"/>
+    <application
+        android:label="@string/application_name"
+        android:icon="@mipmap/product_logo_accessibility_suite_color"
+        android:name="com.google.android.accessibility.talkback.TalkBackApplication"
+        android:backupAgent="com.google.android.accessibility.talkback.TalkBackBackupAgent"
+        android:allowBackup="true"
+        android:restoreAnyVersion="true"
+        android:supportsRtl="true"
+        android:extractNativeLibs="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:forceQueryable="true">
+        <activity
+            android:theme="@style/TalkBackSettings"
+            android:label="@string/talkback_preferences_title"
+            android:name="com.android.talkback.TalkBackPreferencesActivity"
+            android:exported="true"
+            android:taskAffinity="com.google.android.accessibility.talkback.SettingsAffinity"
+            android:launchMode="singleTop"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.google.android.accessibility.talkback.preference.search.verbosity.punctuation.ACTION"/>
+                <action android:name="com.google.android.accessibility.talkback.preference.search.customize.reading.control.punctuation.ACTION"/>
+                <category android:name="android.accessibilityservice.SERVICE_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/TalkBackSettings"
+            android:label="@string/talkback_preferences_title"
+            android:name="com.android.talkback.TalkBackPreferencesActivity.TalkBackSubSettings"
+            android:exported="false"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/BlankActivityTheme"
+            android:name="com.google.android.accessibility.talkback.permission.PermissionRequestActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:noHistory="false"
+            android:directBootAware="true"/>
+        <activity
+            android:theme="@style/TrainingActivityTheme"
+            android:name="com.google.android.accessibility.talkback.trainingcommon.TrainingActivity"
+            android:exported="true"
+            android:process=":Tutorial"
+            android:launchMode="singleTop"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize"
+            android:directBootAware="true">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.google.android.accessibility.talkback.training.START"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/TrainingActivityTheme"
+            android:name="com.google.android.accessibility.talkback.trainingcommon.SecondaryTrainingActivity"
+            android:exported="true"
+            android:process=":Tutorial"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize"
+            android:directBootAware="true"/>
+        <activity
+            android:theme="@style/DialogStyle"
+            android:name="com.google.android.accessibility.talkback.labeling.LabelImportActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"/>
+        <activity
+            android:theme="@style/TalkBackSettings"
+            android:label="@string/label_manager_summary_title"
+            android:name="com.google.android.accessibility.talkback.labeling.LabelManagerSummaryActivity"
+            android:exported="false"
+            android:taskAffinity="com.google.android.accessibility.talkback.SettingsAffinity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name=".labeling.TalkBackSelectorPreferencesActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/TalkBackSettings"
+            android:label="@string/manage_label"
+            android:name="com.google.android.accessibility.talkback.labeling.LabelManagerPackageActivity"
+            android:exported="false"
+            android:taskAffinity="com.google.android.accessibility.talkback.SettingsAffinity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:theme="@style/DialogStyle"
+            android:name="com.google.android.accessibility.talkback.preference.GestureChangeNotificationActivity"
+            android:exported="true"
+            android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/DialogStyle"
+            android:name="com.google.android.accessibility.talkback.NotificationActivity"
+            android:exported="true"
+            android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/TalkBackSettings"
+            android:label="@string/keycombo_keymap_changes_instruction_title"
+            android:name="com.google.android.accessibility.talkback.keyboard.TalkBackKeymapChangesActivity"
+            android:exported="true"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="com.google.android.accessibility.talkback.preference.search.TalkBackSearchIndexablesProvider"
+            android:permission="android.permission.READ_SEARCH_INDEXABLES"
+            android:exported="true"
+            android:multiprocess="true"
+            android:authorities="com.google.android.marvin.talkback.preference.search.TalkBackSearchIndexablesProvider"
+            android:grantUriPermissions="true">
+            <intent-filter>
+                <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER"/>
+            </intent-filter>
+        </provider>
+        <provider
+            android:name="com.google.android.accessibility.talkback.labeling.LabelProvider"
+            android:exported="true"
+            android:authorities="com.google.android.marvin.talkback.providers.LabelProvider"
+            android:directBootAware="true"/>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.google.android.marvin.talkback.providers.FileProvider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+        <service
+            android:label="@string/talkback_title"
+            android:icon="@drawable/icon"
+            android:name="com.google.android.marvin.talkback.TalkBackService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            android:exported="true"
+            android:settingsActivity="com.android.talkback.TalkBackPreferencesActivity"
+            android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+                <category android:name="android.accessibilityservice.category.FEEDBACK_AUDIBLE"/>
+                <category android:name="android.accessibilityservice.category.FEEDBACK_HAPTIC"/>
+                <category android:name="android.accessibilityservice.category.FEEDBACK_SPOKEN"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibilityservice"/>
+        </service>
+        <service
+            android:label="TalkBackIpcService"
+            android:icon="@drawable/icon"
+            android:name="com.google.android.accessibility.talkback.ipc.IpcService"
+            android:enabled="true"
+            android:exported="false"/>
+        <meta-data
+            android:name="support_lift_to_type"
+            android:value="@bool/support_lift_to_type"/>
+        <meta-data
+            android:name="com.google.mlkit.vision.DEPENDENCIES"
+            android:value="ocr"/>
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="@string/backup_api_key"/>
+        <activity
+            android:theme="@style/AccessibilityMenuSettings"
+            android:label="@string/accessibility_menu_settings_name"
+            android:name="com.google.android.accessibility.accessibilitymenu.activity.A11yMenuSettingsActivity"
+            android:enabled="@bool/isAtLeastP"
+            android:exported="true"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.accessibilityservice.SERVICE_SETTINGS"/>
+            </intent-filter>
+        </activity>
+        <service
+            android:label="@string/accessibility_menu_service_name"
+            android:icon="@drawable/ic_logo_a11y_menu"
+            android:name="com.google.android.accessibility.accessibilitymenu.AccessibilityMenuService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            android:enabled="@bool/isAtLeastP"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibilitymenu_service"/>
+        </service>
+        <service
+            android:name="com.google.android.accessibility.accessibilitymenu.analytics.MenuJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/BrailleSettingsTheme"
+            android:label="@string/bd_preferences_title"
+            android:name="com.google.android.accessibility.braille.brailledisplay.settings.BrailleDisplaySettingsActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:configChanges="screenSize|orientation">
+            <intent-filter>
+                <action android:name=".BrailleDisplayPreferencesActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/BrailleSettingsTheme"
+            android:label="@string/pref_preferred_braille_grade_title"
+            android:name="com.google.android.accessibility.braille.brailledisplay.settings.BrailleGradeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name=".BrailleGradeActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/BrailleSettingsTheme"
+            android:label="@string/bd_preference_key_bindings_title"
+            android:name="com.google.android.accessibility.braille.brailledisplay.settings.KeyBindingsActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/BrailleSettingsTheme"
+            android:name="com.google.android.accessibility.braille.brailledisplay.settings.KeyBindingsCommandActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/BrailleSettingsTheme"
+            android:label="@string/bd_preference_key_braille_elements_title"
+            android:name="com.google.android.accessibility.braille.brailledisplay.settings.BrailleElementsActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/Theme.Transparent"
+            android:label="@string/bd_ime_unavailable_activity_name"
+            android:name="com.google.android.accessibility.braille.brailledisplay.BrailleDisplayImeUnavailableActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"/>
+        <activity
+            android:theme="@style/BrailleSettingsTheme"
+            android:label="@string/bd_preference_key_auto_scroll_title"
+            android:name="com.google.android.accessibility.braille.brailledisplay.settings.AutoScrollActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/BrailleSettingsTheme"
+            android:label="@string/bd_preference_key_advanced_settings_title"
+            android:name="com.google.android.accessibility.braille.brailledisplay.settings.AdvancedSettingsActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/SettingsTheme"
+            android:label="@string/braille_keyboard"
+            android:name="com.google.android.accessibility.brailleime.settings.BrailleImePreferencesActivity"
+            android:exported="true"
+            android:taskAffinity=""
+            android:launchMode="singleTop"
+            android:configChanges="screenSize|orientation">
+            <intent-filter>
+                <action android:name=".BrailleImePreferencesActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/BrailleSettingsTheme"
+            android:label="@string/braille_keyboard_gestures"
+            android:name="com.google.android.accessibility.brailleime.settings.BrailleImeGestureActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/BrailleSettingsTheme"
+            android:name="com.google.android.accessibility.brailleime.settings.BrailleImeGestureCommandActivity"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.accessibility.brailleime.MyPackageReplacedReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:label="@string/braille_ime_service_name"
+            android:name="com.google.android.accessibility.brailleime.BrailleIme"
+            android:permission="android.permission.BIND_INPUT_METHOD"
+            android:enabled="false"
+            android:exported="true"
+            android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.view.InputMethod"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/braille_ime"/>
+        </service>
+        <activity
+            android:theme="@style/BrailleSettingsTheme"
+            android:label="@string/braille_languages_title"
+            android:name="com.google.android.accessibility.braille.common.settings.BrailleLanguagesActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/BrailleSettingsTheme"
+            android:name="com.google.android.accessibility.braille.common.settings.LocaleLanguageActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/BrailleSettingsTheme"
+            android:label="@string/braille_add_a_language_preference_title"
+            android:name="com.google.android.accessibility.braille.common.settings.AddLanguageActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/SelectToSpeakSettings"
+            android:label="@string/s2s_preferences_title"
+            android:name="com.google.android.accessibility.selecttospeak.activities.SelectToSpeakPreferencesActivity"
+            android:exported="true"
+            android:configChanges="screenSize|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.accessibilityservice.SERVICE_SETTINGS"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/SelectToSpeakSettings"
+            android:label="@string/s2s_pref_developer_settings_title"
+            android:name="com.google.android.accessibility.selecttospeak.activities.S2SDeveloperSettingsPreferenceActivity"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/NotificationActivityTheme"
+            android:name="com.google.android.accessibility.selecttospeak.activities.ScreenCaptureNotificationActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:configChanges="screenSize|orientation"
+            android:noHistory="false"/>
+        <activity
+            android:theme="@style/SelectToSpeakPopupActivityTheme"
+            android:label="@string/s2s_popup_label"
+            android:name="com.google.android.accessibility.selecttospeak.popup.SelectToSpeakPopupActivity"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PROCESS_TEXT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/SelectToSpeakPopupActivityTheme"
+            android:name="com.google.android.accessibility.selecttospeak.logging.S2sHaTsActivity"
+            android:exported="false"/>
+        <service
+            android:label="@string/s2s_service_name"
+            android:icon="@drawable/ic_select_to_speak"
+            android:name="com.google.android.accessibility.selecttospeak.SelectToSpeakService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="true"
+            android:foregroundServiceType="mediaProjection">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+                <category android:name="android.accessibilityservice.category.FEEDBACK_GENERIC"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/select_to_speak_accessibilityservice"/>
+        </service>
+        <service
+            android:name="com.google.android.accessibility.selecttospeak.SelectToSpeakJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <activity
+            android:name="com.google.android.accessibility.utils.WebActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.marvin.talkback"
+            android:resource="@xml/com_google_android_marvin_talkback_phenotype"/>
+        <service
+            android:name="com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService"
+            android:enabled="false"
+            android:exported="false"
+            android:process="">
+            <intent-filter>
+                <action android:name="com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService"/>
+            </intent-filter>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.marvin.talkback"
+                android:resource="@raw/com_google_android_marvin_talkback_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.gms.auth_account"
+                android:resource="@raw/com_google_android_gms_auth_account_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.libraries.consentverifier"
+                android:resource="@raw/com_google_android_libraries_consentverifier_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.consentverifier"
+                android:resource="@raw/com_google_android_libraries_consentverifier_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.gms.icing.mdd"
+                android:resource="@raw/com_google_android_gms_icing_mdd_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.gms.usagereporting"
+                android:resource="@raw/com_google_android_gms_usagereporting_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.libraries.performance.primes"
+                android:resource="@raw/com_google_android_libraries_performance_primes_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.performance.primes"
+                android:resource="@raw/com_google_android_libraries_performance_primes_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.surveys"
+                android:resource="@raw/com_google_android_libraries_surveys_registration_info"/>
+        </service>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.consentverifier"
+            android:resource="@xml/com_google_android_libraries_consentverifier_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.gms.icing.mdd"
+            android:resource="@xml/com_google_android_gms_icing_mdd_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.performance.primes"
+            android:resource="@xml/com_google_android_libraries_performance_primes_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.surveys"
+            android:resource="@xml/com_google_android_libraries_surveys_phenotype"/>
+        <provider
+            android:name="com.google.android.accessibility.switchaccesslegacy.migration.MigrationProvider"
+            android:permission="com.google.android.marvin.talkback.permission.ACCESS_AAS_SWITCH_ACCESS_MIGRATION"
+            android:exported="true"
+            android:authorities="com.google.android.marvin.talkback.providers.MigrationProvider"/>
+        <activity
+            android:theme="@style/Theme.PlayCore.Transparent"
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:exported="false"
+            android:stateNotNeeded="true"/>
+        <activity
+            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+            android:enabled="false"
+            android:exported="false"
+            android:process=":playcore_missing_splits_activity"
+            android:stateNotNeeded="true"
+            android:launchMode="singleInstance"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <activity
+            android:theme="@style/ScreenshotAuthoProxyActivityTheme"
+            android:name="com.google.android.libraries.accessibility.utils.screencapture.ScreenshotAuthProxyActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:noHistory="false"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.Light"
+            android:label="@string/mdd_debug_ui_title"
+            android:name="com.google.android.libraries.mdi.download.debug.dagger.MddDebugActivity"
+            android:exported="false"/>
+        <provider
+            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+            android:exported="false"
+            android:authorities="com.google.android.marvin.talkback.mlkitinitprovider"
+            android:initOrder="99"/>
+        <service
+            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+            android:exported="false"
+            android:directBootAware="true">
+            <meta-data
+                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver
+            android:name="com.google.android.libraries.performance.primes.transmitter.LifeboatReceiver"
+            android:exported="false"
+            android:process=":primes_lifeboat"/>
+        <receiver
+            android:name="com.google.android.libraries.phenotype.client.stable.AccountRemovedBroadcastReceiver"
+            android:exported="true"
+            android:process="">
+            <intent-filter>
+                <action android:name="android.accounts.action.ACCOUNT_REMOVED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.libraries.phenotype.client.stable.PhenotypeUpdateBackgroundBroadcastReceiver"
+            android:permission="com.google.android.gms.permission.PHENOTYPE_UPDATE_BROADCAST"
+            android:exported="true"
+            android:process="">
+            <intent-filter>
+                <action android:name="com.google.android.gms.phenotype.UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/Theme.AppCompat.DayNight"
+            android:label="@string/preferences_license_title"
+            android:name="com.google.android.libraries.social.licenses.LicenseMenuActivity"
+            android:exported="true"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.DayNight"
+            android:label="@string/preferences_license_title"
+            android:name="com.google.android.libraries.social.licenses.LicenseActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/SurveysTransparentActivity"
+            android:name="com.google.android.libraries.surveys.internal.view.SurveyActivity"
+            android:exported="false"
+            android:process="@string/survey_activity_process_name"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="distractionOptimized"
+                android:value="true"/>
+        </activity>
+        <service
+            android:name="android.net.http.MetaDataHolder"
+            android:enabled="false"
+            android:exported="false">
+            <meta-data
+                android:name="android.net.http.EnableTelemetry"
+                android:value="true"/>
+        </service>
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false"
+            android:directBootAware="true"/>
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false"/>
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false"/>
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:exported="false"
+            android:authorities="com.google.android.marvin.talkback.androidx-startup">
+            <meta-data
+                android:name="androidx.work.WorkManagerInitializer"
+                android:value="androidx.startup"/>
+        </provider>
+        <service
+            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="@bool/enable_system_job_service_default"
+            android:exported="true"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:enabled="@bool/enable_system_foreground_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable.BroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.BatteryChargingProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.BatteryNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.StorageNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy.NetworkStateProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.build.data.PropertiesServiceHolder"
+            android:enabled="false"
+            android:exported="false"
+            android:process="">
+            <intent-filter>
+                <action android:name="com.google.android.build.data.Properties"/>
+            </intent-filter>
+            <meta-data
+                android:name="com.google.android.build.data.properties"
+                android:resource="@raw/build_data"/>
+        </service>
+        <meta-data
+            android:name="com.android.dynamic.apk.fused.modules"
+            android:value="base"/>
+        <meta-data
+            android:name="com.android.stamp.source"
+            android:value="https://play.google.com/store"/>
+        <meta-data
+            android:name="com.android.stamp.type"
+            android:value="STAMP_TYPE_STANDALONE_APK"/>
+        <meta-data
+            android:name="com.android.vending.splits"
+            android:resource="@xml/splits0"/>
+        <meta-data
+            android:name="com.android.vending.derived.apk.id"
+            android:value="1"/>
+    </application>
+</manifest>

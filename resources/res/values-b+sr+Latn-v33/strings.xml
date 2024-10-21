@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">Meni Pristupačnost pruža veliki meni na ekranu za kontrolu uređaja. Možete da zaključate uređaj, kontrolišete jačinu zvuka i osvetljenost, pravite snimke ekrana i drugo.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Kako da koristite Izaberite za govor&lt;/b&gt;&lt;br&gt;Pokrenite Izaberite za govor i onda možete:&lt;br&gt;• da dodirnete određenu stavku, na primer, tekst ili sliku&lt;br&gt;• da prevlačite prstom po ekranu da biste izabrali više stavki&lt;br&gt;• da dodirnete Pusti da biste čuli sve na ekranu&lt;br&gt;• da izaberete tekst koji se pojavljuje u prikazu kamere&lt;br&gt;</string>
+    <string name="s2s_service_intro">Dodirnite određene stavke na ekranu da biste čuli njih ili njihov opis</string>
+    <string name="talkback_service_html_description">&lt;b&gt;Kako da koristite TalkBack&lt;/b&gt;&lt;br&gt;• Prevucite nadesno ili nalevo da biste se kretali između stavki&lt;br&gt;• Dodirnite dvaput da biste aktivirali stavku&lt;br&gt;• Prevlačite pomoću 2 prsta da biste skrolovali&lt;br&gt;&lt;br&gt;&lt;b&gt;Kako da isključite TalkBack&lt;/b&gt;&lt;br&gt;1. U Podešavanjima dodirnite &lt;b&gt;Koristi TalkBack&lt;/b&gt;. Pojaviće se okvir. Dvaput ga dodirnite.&lt;br&gt;2. U poruci potvrde dodirnite &lt;b&gt;Zaustavi&lt;/b&gt;. Pojaviće se okvir. Dvaput ga dodirnite.</string>
+    <string name="talkback_service_intro">TalkBack vam daje govorne povratne informacije da biste mogli da koristite uređaj bez gledanja u ekran. TalkBack može da bude koristan osobama kojima je teško da vide ekran.</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phenotype-registrations>
+    <phenotype-registration>
+        <configuration-package>com.google.android.libraries.surveys
+        </configuration-package>
+        <auto-subpackage>true
+        </auto-subpackage>
+        <params>gOow4aaBswI=
+        </params>
+    </phenotype-registration>
+</phenotype-registrations>

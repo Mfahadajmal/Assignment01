@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">Menyu ya Ufikivu huonyesha menyu pana iliyo kwenye skrini ili udhibiti kifaa chako. Unaweza kufunga kifaa chako, kudhibiti sauti na ung\'avu, kupiga picha ya skrini na zaidi.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Jinsi ya kutumia Chagua ili Izungumze&lt;/b&gt;&lt;br&gt;Washa kipengele cha Chagua ili Izungumze, kisha unaweza:&lt;br&gt;• Kugusa kipengee mahususi, kama vile maandishi au picha&lt;br&gt;• Kuburuta kidole chako kwenye skrini ili uchague vipengee kadhaa&lt;br&gt;• Kugusa kipengele cha Cheza ili usikie kila kitu kwenye skrini&lt;br&gt;• Kuchagua maandishi yanayoonekana kwenye mwonekano wa Kamera&lt;br&gt;</string>
+    <string name="s2s_service_intro">Gusa vipengee mahususi kwenye skrini yako ili usikie vikisomwa au vikielezewa kwa sauti</string>
+    <string name="talkback_service_html_description">&lt;b&gt;Fahamu jinsi ya kutumia TalkBack&lt;/b&gt;&lt;br&gt;• Telezesha kidole kulia au kushoto ili upitie vipengee&lt;br&gt;• Gusa mara mbili ili uwashe kipengee&lt;br&gt;• Buruta vidole viwili ili usogeze&lt;br&gt;&lt;br&gt;&lt;b&gt;Jinsi ya kuzima TalkBack&lt;/b&gt;&lt;br&gt;1. Kwenye Mipangilio, gusa &lt;b&gt;Tumia TalkBack&lt;/b&gt;. Utaona mstari. Gusa mara mbili.&lt;br&gt;2. Kwenye ujumbe wa kuthibitisha, gusa &lt;b&gt;Sitisha&lt;b&gt;. Utaona mstari. Gusa mara mbili.</string>
+    <string name="talkback_service_intro">TalkBack hutoa maelezo yanayotamkwa ili uweze kutumia kifaa chako bila kuangalia skrini. TalkBack inaweza kuwasaidia watu walio na ugumu wa kuona skrini.</string>
+</resources>

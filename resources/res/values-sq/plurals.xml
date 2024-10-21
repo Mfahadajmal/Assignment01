@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s sekondë</item>
+        <item quantity="other">%s sekonda</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s sekondë</item>
+        <item quantity="other">%s sekonda</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">pika %s</item>
+        <item quantity="other">pikat %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">pika %s</item>
+        <item quantity="other">pikat %s</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">1 etiketë e përditësuar</item>
+        <item quantity="other">%d etiketa të përditësuara</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">1 përputhje</item>
+        <item quantity="other">%1$d përputhje</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d njoftim i ri</item>
+        <item quantity="other">%d njoftime të reja</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d yll nga %2$d</item>
+        <item quantity="other">%1$d yje nga %2$d</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">%1$s po shfaq %2$d artikull</item>
+        <item quantity="other">%1$s po shfaq %2$d artikuj</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">1 ngjarje e zgjedhur</item>
+        <item quantity="other">%1$d ngjarje të zgjedhura</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d kolonë</item>
+        <item quantity="other">%1$d kolona</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d rresht</item>
+        <item quantity="other">%1$d rreshta</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d artikull</item>
+        <item quantity="other">%1$d artikuj</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d karakter</item>
+        <item quantity="other">%1$d karaktere</item>
+    </plurals>
+</resources>

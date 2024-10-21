@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/quantum_gm_ic_folder_black_24"
+        android:id="@+id/navigation_filegroups"
+        android:title="@string/mdd_file_groups_nav_title"/>
+    <item
+        android:icon="@drawable/quantum_gm_ic_info_black_24"
+        android:id="@+id/navigation_debuginfo"
+        android:title="@string/mdd_debug_info_nav_title"/>
+</menu>

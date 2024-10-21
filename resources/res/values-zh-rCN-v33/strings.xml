@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">无障碍功能菜单是一个放大的菜单，方便您通过屏幕控制设备，完成锁屏、控制音量和亮度、截图等操作。</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;如何使用“随选朗读”功能&lt;/b&gt;&lt;br&gt;启动“随选朗读”功能，然后您便可以：&lt;br&gt;• 点按特定内容，例如文字或图片&lt;br&gt;• 在屏幕上拖动手指以选择多项内容&lt;br&gt;• 点按“播放”以听取屏幕上的所有内容&lt;br&gt;• 选择显示在相机取景框内的文字&lt;br&gt;</string>
+    <string name="s2s_service_intro">点按屏幕上的特定内容，即可让系统大声朗读或描述相应内容</string>
+    <string name="talkback_service_html_description">&lt;b&gt;如何使用 TalkBack&lt;/b&gt;&lt;br&gt;• 左右滑动可在各项内容之间移动&lt;br&gt;• 点按两次可激活某项内容&lt;br&gt;• 用两根手指拖动可滚动页面&lt;br&gt;&lt;br&gt;&lt;b&gt;如何关闭 TalkBack&lt;/b&gt;&lt;br&gt;1. 在“设置”中，点按&lt;b&gt;使用 TalkBack&lt;/b&gt;。您会看到一个外框。点按两次。&lt;br&gt;2. 当确认消息出现时，点按&lt;b&gt;停止&lt;/b&gt;。您会看到一个外框。点按两次。</string>
+    <string name="talkback_service_intro">TalkBack 可提供语音反馈，让您无需查看屏幕即可使用设备。TalkBack 对于难以看清屏幕的用户而言非常实用。</string>
+</resources>

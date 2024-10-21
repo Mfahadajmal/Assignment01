@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">Die Toeganklikheidkieslys bied ’n groot kieslys op die skerm om jou toestel te beheer. Jy kan jou toestel sluit, volume en helderheid beheer, skermskote neem, en meer.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Gebruik Hardoplees só&lt;/b&gt;&lt;br&gt;Begin Hardoplees en dan kan jy:&lt;br&gt;• Op ’n spesifieke item, soos teks of ’n prent, tik&lt;br&gt;• Jou vinger oor die skerm sleep om veelvuldige items te kies&lt;br&gt;• Op Speel tik om alles op die skerm te hoor&lt;br&gt;• Teks kies wat binne die Kamera-aansig verskyn&lt;br&gt;</string>
+    <string name="s2s_service_intro">Tik op spesifieke items op jou skerm om te hoor hoe hulle hardop gelees of beskryf word</string>
+    <string name="talkback_service_html_description">&lt;b&gt;Gebruik Talkback só&lt;/b&gt;&lt;br&gt;• Swiep regs of links om tussen items te beweeg&lt;br&gt;• Dubbeltik om ’n item te aktiveer&lt;br&gt;• Sleep 2 vingers om te rollees&lt;br&gt;&lt;br&gt;&lt;b&gt;Skakel Talkback só af&lt;/b&gt;&lt;br&gt;1. Tik op &lt;b&gt;Gebruik TalkBack&lt;/b&gt; in Instellings. Daar sal ’n uiteensetting wees. Dubbeltik daarop.&lt;br&gt;2. Tik op &lt;b&gt;Stop&lt;/b&gt; in die bevestigingboodskap. Daar sal ’n uiteensetting wees. Dubbeltik daarop.</string>
+    <string name="talkback_service_intro">TalkBack verskaf gesproke terugvoer sodat jy jou toestel kan gebruik sonder om na die skerm te kyk. TalkBack kan nuttig wees vir mense wat sukkel om die skerm te sien.</string>
+</resources>

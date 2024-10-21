@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s segundo</item>
+        <item quantity="other">%s na segundo</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s segundo</item>
+        <item quantity="other">%s na segundo</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">dot %s</item>
+        <item quantity="other">dot %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">dot %s</item>
+        <item quantity="other">dot %s</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">%d label ang na-update</item>
+        <item quantity="other">%d na label ang na-update</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">%1$d tugma</item>
+        <item quantity="other">%1$d na tugma</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">Nagpapakita ang %1$s ng %2$d item</item>
+        <item quantity="other">Nagpapakita ang %1$s ng %2$d na item</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">%1$d event ang napili</item>
+        <item quantity="other">%1$d na event ang napili</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d column</item>
+        <item quantity="other">%1$d na column</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d row</item>
+        <item quantity="other">%1$d na row</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d na item</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d character</item>
+        <item quantity="other">%1$d na character</item>
+    </plurals>
+</resources>

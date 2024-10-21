@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_menu_intro">Menu Kebolehaksesan menyediakan menu yang besar pada skrin untuk mengawal peranti anda. Anda boleh mengunci peranti, mengawal kelantangan dan kecerahan, mengambil tangkapan skrin dan banyak lagi.</string>
+    <string name="s2s_service_htmldescription">&lt;b&gt;Cara menggunakan Pilih untuk Bercakap&lt;/b&gt;&lt;br&gt;Mulakan Pilih untuk Bercakap, kemudian anda boleh:&lt;br&gt;• Mengetik pada item tertentu, seperti teks atau imej&lt;br&gt;• Menyeret jari merentasi skrin untuk memilih berbilang item&lt;br&gt;• Mengetik Main untuk mendengarkan semua kandungan di skrin&lt;br&gt;• Memilih teks yang muncul dalam pandangan Kamera&lt;br&gt;</string>
+    <string name="s2s_service_intro">Ketik item tertentu pada skrin untuk mendengar item itu dibacakan atau diterangkan</string>
+    <string name="talkback_service_html_description">&lt;b&gt;Cara menggunakan TalkBack&lt;/b&gt;&lt;br&gt;• Leret ke kanan atau ke kiri untuk beralih antara item&lt;br&gt;• Ketik dua kali untuk mengaktifkan item&lt;br&gt;• Seret 2 jari untuk menatal skrin&lt;br&gt;&lt;br&gt;&lt;b&gt;Cara mematikan TalkBack&lt;/b&gt;&lt;br&gt;1. Dalam Tetapan, ketik &lt;b&gt;Gunakan TalkBack&lt;/b&gt;. Garis bentuk akan dipaparkan. Ketik dua kali pada garis bentuk.&lt;br&gt;2. Pada mesej pengesahan, ketik &lt;b&gt;Berhenti&lt;/b&gt;. Garis bentuk akan dipaparkan. Ketik dua kali pada garis bentuk.</string>
+    <string name="talkback_service_intro">TalkBack menyediakan maklum balas yang dituturkan supaya anda boleh menggunakan peranti anda tanpa melihat skrin. TalkBack dapat membantu orang yang mengalami kesukaran melihat skrin.</string>
+</resources>

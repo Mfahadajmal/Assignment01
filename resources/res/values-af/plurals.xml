@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bd_auto_scroll_duration">
+        <item quantity="one">%s sekonde</item>
+        <item quantity="other">%s sekondes</item>
+    </plurals>
+    <plurals name="bd_blinking_interval">
+        <item quantity="one">%s sekonde</item>
+        <item quantity="other">%s sekondes</item>
+    </plurals>
+    <plurals name="braille_dots">
+        <item quantity="one">punt %s</item>
+        <item quantity="other">punte %s</item>
+    </plurals>
+    <plurals name="dots">
+        <item quantity="one">knoppie %s</item>
+        <item quantity="other">knoppies %s</item>
+    </plurals>
+    <plurals name="label_import_succeeded">
+        <item quantity="one">1 etiket is opgedateer</item>
+        <item quantity="other">%d etikette is opgedateer</item>
+    </plurals>
+    <plurals name="msg_matches_found">
+        <item quantity="one">1 passing</item>
+        <item quantity="other">%1$d passings</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nuwe kennisgewing</item>
+        <item quantity="other">%d nuwe kennisgewings</item>
+    </plurals>
+    <plurals name="survey_star_rating">
+        <item quantity="one">%1$d ster uit %2$d</item>
+        <item quantity="other">%1$d sterre uit %2$d</item>
+    </plurals>
+    <plurals name="template_containers">
+        <item quantity="one">%1$s wat %2$d item wys</item>
+        <item quantity="other">%1$s wat %2$d items wys</item>
+    </plurals>
+    <plurals name="template_dump_event_count">
+        <item quantity="one">1 gebeurtenis is gekies</item>
+        <item quantity="other">%1$d gebeurtenisse is gekies</item>
+    </plurals>
+    <plurals name="template_list_column_count">
+        <item quantity="one">%1$d kolom</item>
+        <item quantity="other">%1$d kolomme</item>
+    </plurals>
+    <plurals name="template_list_row_count">
+        <item quantity="one">%1$d ry</item>
+        <item quantity="other">%1$d rye</item>
+    </plurals>
+    <plurals name="template_list_total_count">
+        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d items</item>
+    </plurals>
+    <plurals name="template_password_character_count">
+        <item quantity="one">%1$d karakter</item>
+        <item quantity="other">%1$d karakters</item>
+    </plurals>
+</resources>

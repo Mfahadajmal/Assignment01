@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:textSize="@dimen/training_text_size"
+        android:textColor="@color/training_text_color"
+        android:gravity="center_horizontal"
+        android:id="@+id/training_button"
+        android:background="@drawable/training_list_item_background"
+        android:padding="@dimen/training_button_padding"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/training_padding_top"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:lineHeight="@dimen/training_text_height"
+        app:fontFamily="@string/accessibility_font"/>
+</LinearLayout>
